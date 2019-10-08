@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Simpósio de Informática {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio">
+	<div class="container">
+		<h2 class="text-center text-uppercase text-secondary mb-0">Sobre</h2><br>
+		<hr>
+		<div class="row">
+			<div class="col-lg-12 ml-auto"><br>
+				<p class="lead" style="text-indent:60px; text-align:justify;">O SIRC é organizado pelos Cursos de
+					Ciência da
+					Computação, Sistemas de Informação e Jogos Digitais da UFN -
+					Universidade Franciscana,
+					Santa Maria. O principal objetivo do evento, em sua XV edição, é promover a discussão em torno
+					de temas
+					relevantes e
+					atuais na área de informática. Pesquisadores e profissionais atuando nesta área são fortemente
+					encorajados a
+					submeter
+					artigos originais relatando suas experiências. Os trabalhos selecionados são apresentados em
+					sessões
+					técnicas ao longo
+					do evento. Além disso, o evento conta com a realização de palestras e minicursos.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="container">
+		<h2 class="text-center text-uppercase text-secondary mb-0">Apoio</h2><br>
+		<hr>
+		<div class="row">
+			<div class="col-md-6 col-lg-4"></div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 180px;">
+					<a class="" href="http://www.sbc.org.br/" target="_blank">
+						<img class="img-fluid" style="display: block; margin: auto auto;"
+							src="{% static 'img/ufn/sbc.png' %}" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4"></div>
+		</div>
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="container">
+		<h2 class="text-center text-uppercase text-secondary mb-0">Organização</h2><br>
+		<hr>
+
+		<div class="row">
+			<div class="col-md-6 col-lg-4"></div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 140px;">
+					<a class="" href="http://www.ufn.edu.br/" target="_blank">
+						<img class="img-fluid" style="display: block; margin: auto auto;"
+							src="{% static 'img/ufn/logo.png' %}" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4"></div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 140px;">
+					<a class="" href="http://www.inf.unifra.br/site/" target="_blank">
+						<img class="img-fluid" style="display: block; margin: auto auto;"
+							src="{% static 'img/ufn/cdc.png' %}" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 140px;">
+					<a class="" href="http://www.inf.unifra.br/site/" target="_blank">
+						<img class="img-fluid" style="display: block; margin: auto auto;"
+							src="{% static 'img/ufn/sis.png' %}" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 140px;">
+					<a class="" href="http://www.inf.unifra.br/site/" target="_blank">
+						<img class="img-fluid" style=" padding-top:10px; display: block; margin: auto auto; max-width: 200px; max-height: 190px"
+							src="{% static 'img/ufn/jd.png' %}" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</section>
+
+<section class="portfolio">
+	<div class="container">
+		<h2 class="text-center text-uppercase text-secondary mb-0">Patrocinadores</h2><br>
+		<hr>
+		<div class="row">
+			{% if patrocinadores %}
+			{% for  p in patrocinadores %}
+			<div class="col-md-6 col-lg-4">
+				<div class="card iconbox equal-height iconbox-border" style="height: 140px;">
+					<a class="" style="padding-top:10px; display: block; margin: auto auto; max-width: 200px; max-height: 190px" href="{{p.site}}" target="_blank">
+						<img class="img-fluid" 
+							style="display: block; margin: auto auto;" 
+							src="
+								{% if p.logo_hospedado %}
+									{{ p.logo_hospedado }}
+								{% else %}
+									{{ p.logo.url }}
+								{% endif %}
+								" 
+							alt="">
+					</a>
+				</div>	
+			</div>
+			{% endfor %}
+			{% else %}
+			<div class="col-md-6 col-lg-12">
+				<p class="lead text-center"><br>
+					<i class="fas fa-exclamation-circle"></i>
+					Patrocinadores não definidos.
+				</p>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

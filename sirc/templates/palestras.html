@@ -1,0 +1,99 @@
+{% extends 'programacao.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }}/Palestras {% endblock %}
+{% block palestras %}
+
+<div class="schedule">
+    <div class="schedule__card-wrapper">
+        {% for p in palestras %}
+            <div class="
+                    {% if p.status == 2 %}
+                        card disabled disablede
+                    {% else %}
+                        card
+                    {% endif %}">
+                <div class="card__time">{{p.hora}}</div>
+                <div class="card__place"><a href="{{ p.get_absolute_url}}"> {{p.titulo_}}</a></div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<style>
+    .disablede {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+    }
+
+    .schedule__title {
+        font-size: 1.25em;
+        padding: 1rem 0;
+    }
+
+    .schedule__card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .schedule__card-wrapper .card {
+        display: flex;
+        flex-direction: column;
+        background: #2C3E50;
+        color: #FFFFFF;
+        padding: 0.25rem 0.5rem;
+        border-radius: 3px;
+        margin-bottom: 0.5rem;
+        width: 49%;
+    }
+
+    @media (min-width: 426px) {
+        .schedule__card-wrapper .card {
+            flex-direction: row;
+            padding: 1rem 0.5rem;
+            width: 32.5%;
+        }
+    }
+
+    .schedule__card-wrapper .card__time {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+
+    .schedule__card-wrapper .card__place {
+        flex: 1 0 auto;
+        text-align: center;
+    }
+
+    .schedule__card-wrapper .card.disabled {
+        background-color: #E5E7E9;
+        color: #A6ACAF;
+    }
+
+    .schedule__card-wrapper .card.highlighted {
+        background-color: #1A252F;
+        color: #FFFFFF;
+    }
+
+    .schedule__card-wrapper .card.notify {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: 2px solid grey;
+        color: #494949;
+    }
+
+    @media (max-width: 425px) {
+        .schedule__card-wrapper .card.notify {
+            min-height: 4em;
+        }
+    }
+
+    .schedule__card-wrapper .card.notify>div {
+        padding: 0 0.25rem;
+    }
+</style>
+
+{% endblock palestras %}

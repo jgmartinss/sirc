@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - {{pagina.titulo}} {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">{{pagina.titulo}}</h2><br>
+        <hr><br>
+        <div class="container">
+            <div class="row">
+                {{pagina.descricao|safe}}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

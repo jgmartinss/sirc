@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Palestra - {{palestra.titulo}} {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section id="contact">
+    <div class="container">
+        {% if palestra %}
+            <h2 class="text-center text-uppercase text-secondary mb-0">{{palestra.titulo}}</h2>
+            <hr> <br /><br />
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="lead">{{palestra.resumo}}</p><br>
+                    {% if arquivos %}
+                        <i>
+                            <p class="lead">
+                                <i class="fas fa-angle-right"></i>Arquivos:
+                                {% for a in arquivos %}
+                                    <a href="{{a.arquivo.url}}" download>{{ a.nome }} </a>
+                                {% endfor %}
+                        
+                            </p><br>
+                        </i>
+                    {% else %}
+                    {% endif %}
+                    <p class="lead">
+                        <h4>Público Alvo</h4>
+                        <hr>
+                        <i class="fas fa-angle-right"></i> Foco em: {{palestra.get_publico_alvo_display}} <br>
+                        <i class="fas fa-exclamation-circle"></i> Não temos restrições de público. Todos são muito bem
+                        vindos.
+                    </p>
+                </div>
+                <div class="col-lg-4 ml-auto">
+                    <h4 class="text-secondary mb-0">Palestrante(s)</h4>
+                    <hr>
+                    <div class="">
+                        <div class="card-body">
+                            {% for p in palestra.palestrantes.all %}
+                            <div class="row">
+                                <img src="
+                                    {% if p.avatar %}
+                                        {{ p.avatar.url }}
+                                    {% else %}
+                                        {% if p.avatar_hospedado %}
+                                            {{ p.avatar_hospedado }}
+                                        {% else %}
+                                            {% static 'img/avatar/avatar.jpg' %}
+                                        {% endif %}
+                                    {% endif %}
+                                        " class="rounded-circle" width="90px" height="90px">
+                                <p class="lead" style="margin-top:2px; margin-left:5px;">
+                                    <strong>{{p.nome}}</strong><br>
+                                    <small>({{p.email}})</small><br>
+                                    {% if p.get_rede_social %}
+                                        {% for rs in p.get_rede_social %}
+                                            {{rs.get_link}}
+                                        {% endfor %}
+                                    {% else %}
+                                    {% endif %}
+                                </p><br>
+                            </div><br>
+                            {% endfor %}
+                        </div>
+                    </div><br>
+                    <h4 class="text-secondary mb-0">Data e Local</h4>
+                    <hr>
+                    <div class="">
+                        <div class="card-body">
+                            <div class="row">
+                                <p class="lead">
+                                    <i class="fas fa-fw fa-clock"></i> {{palestra.hora}} <br>
+                                    <i class="fas fa-fw fa-calendar-alt"></i> {{palestra.data}} <br>
+                                    <i class="fas fa-fw fa-building"></i> {{palestra.local.nome}}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% else %}
+            <p class="lead">Palestra não encontrada...</p>
+        {% endif %}
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

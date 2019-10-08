@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Datas Importantes {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Datas Importantes</h2><br><hr><br>
+        <div class="row">
+            {% if datas %}
+                {% for  d in datas %}
+                <div class="col-lg-12 ml-auto">
+                    <p class="lead">
+                        <h5>"{{d.titulo}}"</h5> 
+                        <p>{{d.descricao|safe}}</p>
+                        <br><small><i>publicado em: <strong>{{d.criado_em}}</strong></i></small>
+                    </p>
+                    <hr>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="col-md-6 col-lg-12">
+                    <p class="lead text-center">
+                        <i class="fas fa-exclamation-circle"></i>
+                        Em Breve, Aguarde...
+                    </p>
+                </div>
+            {% endif %}
+                <div class="col-md-2 col-md-offset-12">
+                    <nav aria-label="Page navigation example">
+                        {% if is_paginated %}
+                        <ul class="pagination">
+                            {% if page_obj.has_previous %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page={{ page_obj.previous_page_number }}">&laquo;</a>
+                            </li>
+                            {% else %}
+                            <li class="page-link" class="disabled"><span>&laquo;</span></li>
+                            {% endif %}
+                            {% for i in paginator.page_range %}
+                            {% if page_obj.number == i %}
+                            <li class="page-link" class="active">
+                                <span>{{ i }} <span class="sr-only">(current)</span></span>
+                            </li>
+                            {% else %}
+                            <li><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                            {% endif %}
+                            {% endfor %}
+                            {% if page_obj.has_next %}
+                            <li class="page-item">
+                                <a class="page-link" href="?page={{ page_obj.next_page_number }}">&raquo;</a>
+                            </li>
+                            {% else %}
+                            <li class="page-link" class="disabled"><span>&raquo;</span></li>
+                            {% endif %}
+                        </ul>
+                        {% endif %}
+                    </nav>
+                </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

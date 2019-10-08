@@ -1,0 +1,65 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="{% url 'core:index' %}">SIRC <span
+                style="color: #00D2C1">2019</span></a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button"
+            data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+            aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item mx-0 mx-lg-1 dropdown">
+                    <a class="nav-link py-3 px-0 px-lg-3" href="#" data-toggle="dropdown">SIRC <b class="caret"></b></a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'core:anais' %}">Anais</a>
+                        <a class="dropdown-item" href="http://www.ufn.edu.br/site/certificado"
+                            target="_blank">Certificados</a>
+                        <a class="dropdown-item" href="{% url 'core:organizacao' %}">Organização</a>
+                        <a class="dropdown-item" href="{% url 'core:pagina-detail' 'olimpiadas' %}">Olimpiadas</a>
+                        <a class="dropdown-item" href="{% url 'core:datas' %}">Datas</a>
+                    </div>
+                </li>
+
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                        href="{% url 'core:contato' %}">Contato</a>
+                </li>
+
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                        href="{% url 'core:noticias' %}">Notícias</a>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1 dropdown">
+                    <a class="nav-link py-3 px-0 px-lg-3" href="#" data-toggle="dropdown">Inscrições</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'core:inscricoes' %}">Realizar</a>
+                        <a class="dropdown-item" href="{% url 'core:consultar-insc' %}">Consultar</a>
+                    </div>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1 dropdown">
+                    <a class="nav-link py-3 px-0 px-lg-3" href="#" data-toggle="dropdown">Submissão</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="{% url 'core:pagina-detail' 'como-submeter' %}">Como submeter</a>
+                        <a class="dropdown-item" href="{% url 'core:formatos' %}">Formatos</a>
+                    </div>
+                </li>
+                <li class="nav-item mx-0 mx-lg-1">
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                        href="{% url 'core:programacao' %}">Programação</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="masthead" style="background-color: #FFFFFF; margin-top: -98px; margin-bottom: -45px;">
+    <img style="height: 100%; width: 100%; display: flex; align-items: center; justify-content: center;"
+        src="{% static 'img/ufn/banner.png' %}" class="img-fluid" alt="" srcset="">
+</header>
+{% endblock %}

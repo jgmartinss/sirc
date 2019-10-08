@@ -1,0 +1,4586 @@
+[
+{
+    "model": "core.contato",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-08-01T19:17:28.624Z",
+        "modificado_em": "2019-08-01T19:17:28.624Z",
+        "nome": "Clara",
+        "email": "clara@camisetafeitadepet.com.br",
+        "assunto": "Brindes ecol\u00f3gicos",
+        "menssagem": "Boa Tarde\r\n\r\nMeu nome \u00e9 Clara Menezes e sou assistente de neg\u00f3cios da Camiseta Feita de Pet.\r\nNossa empresa transforma garrafas pet em novos produtos e tem um pre\u00e7o bem competitivo para projetos, parceiros e organiza\u00e7\u00f5es de eventos.\r\nTemos um leque bem grande de produtos ecol\u00f3gicos e sustent\u00e1veis\r\nDentre as empresas que fornecemos temos muitas organizadoras de eventos parceiras.\r\nMuitas vezes trocamos o espa\u00e7o para venda da nossa grife por brindes\r\nEsperamos uma oportunidade para mostrar o nosso trabalho!\r\n\r\nAbaixo os materiais que temos:\r\nhttps://camisetafeitadepet.com.br/site/catalogo-brindes-ecologicos/\r\n\r\nhttps://camisetafeitadepet.com.br/site/catalogo-brindes-sustentaveis/\r\n\r\nClara Menezes\r\nAssistente de Neg\u00f3cios\r\nwww.camisetafeitadepet.com.br\r\n011 2386 6762 * watzap"
+    }
+},
+{
+    "model": "core.contato",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-08-08T13:00:18.220Z",
+        "modificado_em": "2019-08-08T13:00:18.220Z",
+        "nome": "Rosana Bevilaqua Felin",
+        "email": "rosana.felin@avmb.com.br",
+        "assunto": "Participa\u00e7\u00e3o",
+        "menssagem": "Bom dia!\r\nEnviei um e mail em abril para voc\u00eas perguntando da possibilidade de participarmos desse evento.\r\na verdade nossa ideia \u00e9 promover a\u00e7\u00f5es para melhorar nosso Banco de Talentos, recebimento de curr\u00edculos para reserva de vagas.\r\n\r\nGostar\u00edamos de ter alguns minutinhos ou at\u00e9 mesmo um tempo maior para que possamos falar sobre o mercado de trabalho que a AVMB disponibiliza.\r\n\r\nVoc\u00eas tamb\u00e9m podem abordar ou sugerir algum tema para nosso diretor falar...."
+    }
+},
+{
+    "model": "core.contato",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-08-24T02:02:01.222Z",
+        "modificado_em": "2019-08-24T02:02:01.222Z",
+        "nome": "Thomas schott",
+        "email": "thomaschott.f@hotmail.com",
+        "assunto": "Acc",
+        "menssagem": "Boa noite!\r\nGostaria de saber quanto vai valer de acc... o simp\u00f3sio em si vai ter uma carga hor\u00e1ria? E as oficinas ser\u00e3o cargas hor\u00e1rias separadas?"
+    }
+},
+{
+    "model": "core.contato",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-09-05T11:51:45.585Z",
+        "modificado_em": "2019-09-05T11:51:45.585Z",
+        "nome": "Andressa",
+        "email": "comunicacao@syntesis.com.br",
+        "assunto": "Syntesis no Sirc",
+        "menssagem": "Prezados, \r\nMeu nome \u00e9 Andressa e sou respons\u00e1vel pela Setor de Comunica\u00e7\u00e3o da Syntesis - empresa de tecnologia com 11 anos em Santa Maria.\r\nGostaria de colocar nossos profissionais \u00e0 disposi\u00e7\u00e3o para ministrar palestras ou minicursos no Evento. \r\n\r\nQualquer d\u00favida, estou \u00e0 disposi\u00e7\u00e3o!\r\n\r\nAtt"
+    }
+},
+{
+    "model": "core.contato",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-09-30T11:41:05.322Z",
+        "modificado_em": "2019-09-30T11:41:05.322Z",
+        "nome": "Pierre Carvalho Fenner",
+        "email": "pierrefenner@hotmail.com",
+        "assunto": "Inscri\u00e7\u00e3o do evento",
+        "menssagem": "Ol\u00e1! eu estou com um problema de acessar a minha inscri\u00e7\u00e3o.. eu fiz a inscri\u00e7\u00e3o e foi gerado o boleto e eu paguei, mas n\u00e3o consigo acessar a minha inscri\u00e7\u00e3o para poder submeter trabalho, ser\u00e1 que teria como me informar o que pode ter acontecido?\r\nAgrade\u00e7o desde j\u00e1, abra\u00e7o."
+    }
+},
+{
+    "model": "core.contato",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-10-07T23:03:05.403Z",
+        "modificado_em": "2019-10-07T23:03:05.403Z",
+        "nome": "LUCIANO ILHA",
+        "email": "lucianoilha75@gmail.com",
+        "assunto": "Erro na Inscri\u00e7\u00e3o",
+        "menssagem": "N\u00e3o permite digitar o cpf, navegadores (Edge e Chrome)"
+    }
+},
+{
+    "model": "core.patrocinador",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-09-12T16:37:34.931Z",
+        "modificado_em": "2019-09-13T20:10:07.997Z",
+        "nome": "AVMB",
+        "site": "https://avmbasten.com/",
+        "ativo": true,
+        "logo": "patrocinadores/logo/AVMB.png",
+        "logo_hospedado": "https://i1.wp.com/avmbasten.com/wp-content/uploads/2019/01/cropped-AVMB-COLORIDO-FLAT-01.png?fit=1482%2C466&ssl=1"
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-22T00:33:14.806Z",
+        "modificado_em": "2019-07-22T00:33:25.595Z",
+        "nome": "Fabr\u00edcio Tonetto Londero",
+        "tipo": 1,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-07-22T00:33:40.190Z",
+        "modificado_em": "2019-07-22T00:33:40.190Z",
+        "nome": "Alessandro Andr\u00e9 Mainardi de Oliveira",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-07-22T00:33:49.129Z",
+        "modificado_em": "2019-07-22T00:33:49.129Z",
+        "nome": "Alexandre de Oliveira Zamberlan",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-07-22T00:33:57.954Z",
+        "modificado_em": "2019-07-22T00:33:57.954Z",
+        "nome": "Ana Paula Canal",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:02.915Z",
+        "modificado_em": "2019-07-22T00:34:02.915Z",
+        "nome": "Fernando Sarturi Prass",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:08.789Z",
+        "modificado_em": "2019-07-22T00:34:08.789Z",
+        "nome": "Guilherme Chagas Kurtz",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:14.637Z",
+        "modificado_em": "2019-07-22T00:34:14.637Z",
+        "nome": "Mirkos Ortiz Martins",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:20.870Z",
+        "modificado_em": "2019-07-22T00:34:20.871Z",
+        "nome": "Reiner Franthesco Perozzo",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:26.002Z",
+        "modificado_em": "2019-07-22T00:34:26.002Z",
+        "nome": "Ricardo Fr\u00f6hlich da Silva",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-07-22T00:34:31.470Z",
+        "modificado_em": "2019-07-22T00:34:31.470Z",
+        "nome": "Sylvio Andr\u00e9 Garcia Vieira",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.organizadores",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2019-07-22T00:36:20.897Z",
+        "modificado_em": "2019-07-22T00:36:20.897Z",
+        "nome": "C\u00e1ssio Fernandes Lemos",
+        "tipo": 2,
+        "ativo": true
+    }
+},
+{
+    "model": "core.formatos",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-26T16:24:20.618Z",
+        "modificado_em": "2019-08-27T18:02:00.204Z",
+        "titulo": "TRABALHOS COMPLETOS",
+        "descricao": "Template SBC (Sociedade Brasileira de Computa\u00e7\u00e3o)",
+        "status": 1
+    }
+},
+{
+    "model": "core.formatos",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-07-26T16:25:41.515Z",
+        "modificado_em": "2019-08-27T18:02:55.959Z",
+        "titulo": "P\u00d4STER",
+        "descricao": "Padr\u00e3o de apresenta\u00e7\u00e3o obrigat\u00f3rio para Trabalhos em Andamento (modalidade Resumo), tamanho: 120cm x 90cm.",
+        "status": 1
+    }
+},
+{
+    "model": "core.formatosarquivos",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-26T16:24:20.630Z",
+        "modificado_em": "2019-08-27T18:02:00.207Z",
+        "nome": "SBC Latex",
+        "tipo": 1,
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rAEdOwYIHmPw52j3w?e=OSpCKS",
+        "formatos": 1
+    }
+},
+{
+    "model": "core.formatosarquivos",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-07-26T16:24:20.640Z",
+        "modificado_em": "2019-08-27T18:02:00.209Z",
+        "nome": "SBC padr\u00e3o Word",
+        "tipo": 2,
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/w/s!AmvVbAcFSr971rAMwzv5VH0VrUbzLg?e=BfCnPe",
+        "formatos": 1
+    }
+},
+{
+    "model": "core.formatosarquivos",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-07-26T16:24:20.643Z",
+        "modificado_em": "2019-08-27T18:02:00.211Z",
+        "nome": "SBC Open Document",
+        "tipo": 3,
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/w/s!AmvVbAcFSr971rANYooEYAnMXZx9wQ?e=0i1TdS",
+        "formatos": 1
+    }
+},
+{
+    "model": "core.formatosarquivos",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-07-26T16:25:41.518Z",
+        "modificado_em": "2019-08-27T18:02:55.961Z",
+        "nome": "Power Point",
+        "tipo": 5,
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/p/s!AmvVbAcFSr971q9__Qn_nkKqId0UVA?e=yADDIK",
+        "formatos": 2
+    }
+},
+{
+    "model": "core.datas",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-22T01:20:51.287Z",
+        "modificado_em": "2019-07-22T01:20:51.287Z",
+        "titulo": "Inscri\u00e7\u00f5es",
+        "descricao": "Per\u00edodo de inscri\u00e7\u00f5es: de <b>01/08</b> a <b>16/10/2019</b>, no link: \u201cInscri\u00e7\u00e3o\u201d.\r\nObserva\u00e7\u00e3o: O prazo de encerramento das inscri\u00e7\u00f5es poder\u00e1 ser antecipado, caso todas as vagas sejam preenchidas.\r\n- As inscri\u00e7\u00f5es somente ser\u00e3o realizadas pelo site: www.ufn.edu.br, no link: Eventos \u2013 Certificados e Anais",
+        "status": 1
+    }
+},
+{
+    "model": "core.datas",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-07-23T22:20:20.493Z",
+        "modificado_em": "2019-09-24T00:15:29.814Z",
+        "titulo": "Submiss\u00e3o de Trabalhos",
+        "descricao": "Per\u00edodo de submiss\u00e3o: <b>02/08 at\u00e9 <strike>24/09/2019</strike></b> <b color=\"red\">03/10/2019</b>.\r\n<br>\r\n<b>1\u00aa avalia\u00e7\u00e3o:</b> 04/10 a 08/10\r\n<br>\r\nReenvio com as altera\u00e7\u00f5es: 09 a 14/10/2019\r\n<br>\r\nDivulga\u00e7\u00e3o dos trabalhos aprovados com locais de apresenta\u00e7\u00e3o: <b>17/10/2019</b>",
+        "status": 1
+    }
+},
+{
+    "model": "core.paginas",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-06T15:07:22.301Z",
+        "modificado_em": "2019-09-03T19:07:17.544Z",
+        "titulo": "Como Submeter",
+        "slug": "como-submeter",
+        "descricao": "<section class=\"module\">\r\n<div class=\"container\">\r\n<div class=\"row\">\r\n<div class=\"col col-md-12 muli\">\r\n<div class=\"col-sm-12 muli\">\r\n<blockquote>\r\n<p>Para <strong>cada inscri&ccedil;&atilde;o</strong>, na modalidade \"<strong>Apresentador de Trabalhos</strong>\", o participante poder&aacute; submeter <strong>at&eacute; 02 (dois) trabalhos</strong>.</p>\r\n<p>Verificar <a href=\"http://www.sirc.ufn.edu.br/datasimportantes/\">Datas Importantes</a>.</p>\r\n</blockquote>\r\n<p>&nbsp;</p>\r\n<p><strong>TRABALHOS COMPLETOS:</strong></p>\r\n<ul>\r\n<li>Os trabalhos completos selecionados ser&atilde;o apresentados <strong>oralmente </strong>em sess&otilde;es t&eacute;cnicas ao longo do evento.</li>\r\n<li>Os mesmos ser&atilde;o julgados por crit&eacute;rios de originalidade, clareza e contribui&ccedil;&atilde;o na &aacute;rea de inform&aacute;tica.</li>\r\n<li>Para que os artigos aceitos sejam publicados nos anais do evento, &eacute; imprescind&iacute;vel a realiza&ccedil;&atilde;o da inscri&ccedil;&atilde;o e sua apresenta&ccedil;&atilde;o no evento.</li>\r\n<li>O artigo dever&aacute; conter, no m&aacute;ximo, <strong>08 p&aacute;ginas</strong> e a submiss&atilde;o dever&aacute; ser feita EXCLUSIVAMENTE por meio eletr&ocirc;nico, no formato <strong>Adobe Acrobat (PDF)</strong> n&atilde;o protegido.</li>\r\n<li>O formato dos artigos submetidos deve seguir as normas da <strong>Sociedade Brasileira de Computa&ccedil;&atilde;o (SBC)</strong>.</li>\r\n<li>O artigo dever&aacute; ser submetido para revis&atilde;o \"<em>blind review</em>\", ou seja, n&atilde;o deve possuir qualquer informa&ccedil;&atilde;o que identifique os autores e a institui&ccedil;&atilde;o de origem do artigo.</li>\r\n<li>A submiss&atilde;o de artigos para <strong>avalia&ccedil;&atilde;o</strong> dever&aacute; ser feita eletronicamente atrav&eacute;s do sistema <a href=\"https://submissoes.sbc.org.br/sirc2019\"><strong>JEMS</strong> (Sistema de Submiss&otilde;es da SBC)</a>.</li>\r\n<li><strong>Em caso de aprova&ccedil;&atilde;o</strong>, a vers&atilde;o final do trabalho dever&aacute; ser submetida no site do <a href=\"../../../../../realizar-inscricoes/\" target=\"_blank\" rel=\"noopener\"><strong>SIRC</strong> (Sistema de Inscri&ccedil;&otilde;es)</a>, ap&oacute;s a compensa&ccedil;&atilde;o do boleto banc&aacute;rio (que poder&aacute; levar at&eacute; 02 dias &uacute;teis para ocorrer), como &ldquo;<strong>Apresentador de Trabalho</strong>&rdquo;, na <strong>modalidade Completo</strong>, juntamente com a vers&atilde;o final do trabalho (com autores devidamente identificados, com nome completo, CPF e e-mail).</li>\r\n</ul>\r\n<blockquote>\r\n<p><strong>IMPORTANTE</strong>:</p>\r\n<p>Primeiramente o artigo dever&aacute; ser submetido para avalia&ccedil;&atilde;o atrav&eacute;s do sistema JEMS. Posteriormente, ap&oacute;s divulga&ccedil;&atilde;o dos aprovados, a vers&atilde;o final dever&aacute; ser enviada (ap&oacute;s pagamento como Apresentador de Trabalhos)&nbsp;pelo sistema do evento.</p>\r\n<p>Para tal, o sistema somente ir&aacute; liberar a submiss&atilde;o com pagamento de boleto (ap&oacute;s a aprova&ccedil;&atilde;o) com dois (02) dias &uacute;teis de anteced&ecirc;ncia.</p>\r\n</blockquote>\r\n<p>&nbsp;</p>\r\n<hr />\r\n<p><strong>TRABALHOS EM ANDAMENTO (Resumos)</strong></p>\r\n<ul>\r\n<li>A apresenta&ccedil;&atilde;o desta modalidade ser&aacute;, obrigatoriamente, em formato de <strong>p&ocirc;ster </strong>(tamanho: 120cmx90cm).</li>\r\n<li>O resumo ser&aacute; inserido, obrigatoriamente, no site do <a href=\"../../../../../consultar-inscricoes/\" target=\"_blank\" rel=\"noopener\"><strong>SIRC</strong> (Sistema de Inscri&ccedil;&otilde;es)</a>, ap&oacute;s a compensa&ccedil;&atilde;o do boleto banc&aacute;rio (que poder&aacute; levar at&eacute; 02 dias &uacute;teis para ocorrer), como &ldquo;<strong>Apresentador de Trabalho</strong>&rdquo;, na <strong>modalidade Resumo</strong>, com autores devidamente identificados (nome completo, CPF e e-mail).</li>\r\n<li>O resumo ser&aacute; inserido em campos, divididos em:\r\n<ul>\r\n<li>T&iacute;tulo em mai&uacute;sculo (at&eacute; 15 palavras). O t&iacute;tulo n&atilde;o deve mencionar nomes cient&iacute;ficos (estes dever&atilde;o constar nas palavras-chave).</li>\r\n<li>Palavras-chave (m&iacute;nimo 3 e m&aacute;ximo 5 palavras), separadas por v&iacute;rgula. N&atilde;o repetir palavras que j&aacute; constam no t&iacute;tulo.</li>\r\n<li>Texto (at&eacute; 5000 caracteres). O texto deve conter, obrigatoriamente, introdu&ccedil;&atilde;o, desenvolvimento, metodologia, resultados e discuss&otilde;es (parciais para pesquisas em andamento), conclus&otilde;es (parciais para pesquisas em andamento).</li>\r\n<li>Refer&ecirc;ncias (de 3 a 5 refer&ecirc;ncias).</li>\r\n<li>Autores (alunos de gradua&ccedil;&atilde;o dever&atilde;o incluir o nome do orientador do trabalho. O nome do orientador ser&aacute; o &uacute;ltimo).&nbsp;</li>\r\n</ul>\r\n</li>\r\n<li>Os resumo ser&atilde;o escritos em l&iacute;ngua portuguesa e a reda&ccedil;&atilde;o ser&aacute; feita de forma impessoal.&nbsp;</li>\r\n<li>Autores: Ser&atilde;o considerados, no m&aacute;ximo, 8 (oito) autores. O nome de cada autor ser&aacute; colocado na ordem de Nome e Sobrenome por extenso. Por exemplo, o nome dos autores Jos&eacute; da Silva e Rosa do Brasil ser&aacute; escrito Jos&eacute; da Silva; Rosa do Brasil.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</li>\r\n<li>&Eacute; obrigat&oacute;ria a inclus&atilde;o de, no m&iacute;nimo 3 e no m&aacute;ximo 5, cita&ccedil;&otilde;es diretas ou indiretas(citar trabalhos de outros autores) no texto do resumo expandido. Estas obedecer&atilde;o &agrave;s <strong>normas&nbsp;da Sociedade Brasileira de Computa&ccedil;&atilde;o (SBC)</strong>.</li>\r\n<li>Listar nas refer&ecirc;ncias apenas os autores citados no corpo do texto.</li>\r\n<li>Listar conforme as <strong>normas da Sociedade Brasileira de Computa&ccedil;&atilde;o (SBC)</strong>.<strong> Aten&ccedil;&atilde;o!</strong> Listar no campo espec&iacute;fico (Refer&ecirc;ncias) conforme indicado no modelo.</li>\r\n<li>N&atilde;o ser&atilde;o permitidas notas de rodap&eacute;, figuras e tabelas no resumo.</li>\r\n<li>Cada resumo ser&aacute; analisado pela comiss&atilde;o organizadora do evento&nbsp;quanto &agrave; originalidade, alcance pr&aacute;tico, contribui&ccedil;&atilde;o t&eacute;cnica e apresenta&ccedil;&atilde;o.</li>\r\n<li>A responsabilidade por erros gramaticais &eacute;, <strong>exclusivamente, dos autores</strong>, sendo um crit&eacute;rio determinante para a publica&ccedil;&atilde;o do trabalho. <strong>Trabalhos, com excesso de erros ou erros graves, ser&atilde;o desclassificados.</strong></li>\r\n<li>O n&atilde;o cumprimento das normas acarretar&aacute; na sum&aacute;ria desclassifica&ccedil;&atilde;o do trabalho.</li>\r\n<li>A apresenta&ccedil;&atilde;o dever&aacute; seguir rigorosamente o modelo dispon&iacute;vel em \"<strong>Formatos para Submiss&atilde;o</strong>\". Em caso do n&atilde;o cumprimento, o trabalho n&atilde;o ser&aacute; publicado nos Anais do Evento.</li>\r\n<li><strong>ATEN&Ccedil;&Atilde;O:</strong> Copie e cole o seu texto do resumo nos campos correspondentes, antes da finaliza&ccedil;&atilde;o do envio ser&aacute; poss&iacute;vel visualizar o arquivo (extens&atilde;o PDF).</li>\r\n<li>O cabe&ccedil;alho de identifica&ccedil;&atilde;o do evento ser&aacute; gerado automaticamente no momento da submiss&atilde;o.</li>\r\n</ul>\r\n<hr />\r\n<p><strong>NOTAS IMPORTANTES:</strong></p>\r\n<ul>\r\n<li>Ser&aacute; aceito o<strong>&nbsp;</strong><strong>envio de 02 (dois) trabalhos por inscri&ccedil;&atilde;o.</strong>&nbsp;Para a submiss&atilde;o do trabalho n&atilde;o &eacute; obrigat&oacute;ria a inscri&ccedil;&atilde;o dos demais autores.</li>\r\n<li>O autor que, na sua inscri&ccedil;&atilde;o fizer a submiss&atilde;o do trabalho, constar&aacute; no certificado como&nbsp;<strong>1&ordm; autor</strong>.</li>\r\n<li><strong>Erros de submiss&atilde;o ser&atilde;o de responsabilidade dos autores.</strong></li>\r\n</ul>\r\n<hr />\r\n<p><strong>T&Oacute;PICOS DE INTERESSE:</strong></p>\r\n<ul>\r\n<li>Algoritmos e Estruturas de Dados;</li>\r\n<li>Arquitetura de Computadores;</li>\r\n<li>Arte e Design em Jogos;</li>\r\n<li>Banco de Dados;</li>\r\n<li>Computa&ccedil;&atilde;o Gr&aacute;fica;</li>\r\n<li>Computa&ccedil;&atilde;o M&oacute;vel;</li>\r\n<li>Computa&ccedil;&atilde;o Ub&iacute;qua e Pervasiva;</li>\r\n<li>Cultura em Jogos;</li>\r\n<li>Engenharia de Software;</li>\r\n<li>Hiperm&iacute;dia e Multim&iacute;dia;</li>\r\n<li>Inform&aacute;tica na Educa&ccedil;&atilde;o;</li>\r\n<li>Intelig&ecirc;ncia Artificial;</li>\r\n<li>Jogos Digitais;</li>\r\n<li>Jogos Educativos;</li>\r\n<li>Jogos S&eacute;rios;</li>\r\n<li>Nanotecnologia;</li>\r\n<li>Processamento de Linguagens;</li>\r\n<li>Redes de Computadores;</li>\r\n<li>Simula&ccedil;&atilde;o;</li>\r\n<li>Sistemas de Informa&ccedil;&atilde;o;</li>\r\n<li>Sistemas Operacionais;</li>\r\n<li>Sistemas Cooperativos;</li>\r\n<li>Sistemas Paralelos e Distribu&iacute;dos.</li>\r\n</ul>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</section>",
+        "status": 1
+    }
+},
+{
+    "model": "core.paginas",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-07-06T15:08:19.121Z",
+        "modificado_em": "2019-07-26T17:05:23.694Z",
+        "titulo": "Olimpiadas",
+        "slug": "olimpiadas",
+        "descricao": "<blockquote>\r\n<p>As inscri&ccedil;&otilde;es ser&atilde;o realizadas no per&iacute;odo de: 01/08/2019 a 16/10/2019.</p>\r\n<p>O evento ocorrer&aacute; no dia 21/10/2019.</p>\r\n<p>A premia&ccedil;&atilde;o ocorrer&aacute; no dia 23/10/2019 as 22:10 &nbsp;(Sal&atilde;o Azul)</p>\r\n</blockquote>\r\n<hr />\r\n<p><strong>REGULAMENTO</strong></p>\r\n<p><strong>1. Objetivo</strong></p>\r\n<p>&nbsp; &nbsp; Proporcionar oportunidades e incentivo para o treinamento do estudante universit&aacute;rio quanto &agrave; sua capacidade para a resolu&ccedil;&atilde;o de problemas. Neste contexto, criam-se mecanismos para a classifica&ccedil;&atilde;o de tais habilidades, estimulando seu aperfei&ccedil;oamento.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>2. Condi&ccedil;&otilde;es Para Participa&ccedil;&atilde;o</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Podem participar estudantes da gradua&ccedil;&atilde;o dos cursos de Ci&ecirc;ncia da Computa&ccedil;&atilde;o, Sistemas de Informa&ccedil;&atilde;o ou afins, de qualquer institui&ccedil;&atilde;o de ensino e participantes do evento. Estes estudantes compor&atilde;o <strong>equipes com at&eacute; tr&ecirc;s</strong>, devidamente matriculados nos cursos de gradua&ccedil;&atilde;o.</p>\r\n<p><strong>&nbsp; &nbsp; Cada integrante (membro/componente) da equipe dever&aacute; estar inscrito no XV Simp&oacute;sio de Inform&aacute;tica - SIRC/RS 2019. Al&eacute;m disso, a equipe deve ser inscrita na VIII Olimp&iacute;ada de Programa&ccedil;&atilde;o da Unifra.</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Caso um integrante chegue ap&oacute;s o prazo, ou precise sair durante a prova ser&aacute; <strong>desclassificado</strong> sozinho, sem remover a equipe.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Os membros de cada equipe participam exclusivamente de uma &uacute;nica equipe.</p>\r\n<p>&nbsp; &nbsp; Os membros da equipe autorizam a divulga&ccedil;&atilde;o de seu nome, e-mail e resultado para as empresas patrocinadoras.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>3. Formul&aacute;rio de Inscri&ccedil;&atilde;o</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; O formul&aacute;rio de inscri&ccedil;&atilde;o dever&aacute; ser preenchido eletronicamente por meio do site do evento.</p>\r\n<p>&nbsp; &nbsp; <a href=\"http://docs.google.com/forms/d/e/1FAIpQLSfmZMN1-qZpVjYyKK_UiV_UBgqya3Y1__JYjBDI7JQlWlsMSg/viewform\" target=\"_blank\" rel=\"noopener\">Clique aqui para acessar o formul&aacute;rio de inscri&ccedil;&otilde;es para as ol&iacute;mpiadas.</a></p>\r\n<p>&nbsp;</p>\r\n<p><strong>4. Composi&ccedil;&atilde;o da Comiss&atilde;o Julgadora</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; A comiss&atilde;o julgadora ser&aacute; formada por professores dos cursos de Ci&ecirc;ncia da Computa&ccedil;&atilde;o e Sistemas de Informa&ccedil;&atilde;o da Unifra.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>5. Inscri&ccedil;&atilde;o, Local, Data e Hor&aacute;rio</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; As inscri&ccedil;&otilde;es ser&atilde;o realizadas no per&iacute;odo de 01/08/2019 a 16/10/2019.</p>\r\n<p>&nbsp;&nbsp;&nbsp; A documenta&ccedil;&atilde;o abaixo dever&aacute; estar regularizada, impreterivelmente na data da inscri&ccedil;&atilde;o, para homologa&ccedil;&atilde;o das inscri&ccedil;&otilde;es:</p>\r\n<ul>\r\n<li>Formul&aacute;rio de inscri&ccedil;&atilde;o na VIII Olimp&iacute;ada de Programa&ccedil;&atilde;o da UFN devidamente preenchido atrav&eacute;s do site do evento;</li>\r\n<li>Para participantes de outras institui&ccedil;&otilde;es dever&atilde;o entregar uma c&oacute;pia do hist&oacute;rico acad&ecirc;mico ou documento com todas as disciplinas cursadas.</li>\r\n</ul>\r\n<p>&nbsp;&nbsp;&nbsp; A documenta&ccedil;&atilde;o acima referida dever&aacute; ser encaminhada para fins de homologa&ccedil;&atilde;o da inscri&ccedil;&atilde;o, at&eacute; a data final de inscri&ccedil;&atilde;o nas ol&iacute;mpiadas. N&atilde;o ser&atilde;o recebidas as documenta&ccedil;&otilde;es ap&oacute;s a data e hor&aacute;rios acima estabelecidos. A comiss&atilde;o organizadora n&atilde;o se responsabiliza por atraso na entrega da documenta&ccedil;&atilde;o.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Caso a documenta&ccedil;&atilde;o n&atilde;o seja entregue em tempo h&aacute;bil, a equipe inscrita ser&aacute; desclassificada.</p>\r\n<p>&nbsp; &nbsp; &nbsp;<strong>Trazer comprovante no dia caso seja calouro.</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; A VIII Olimp&iacute;ada de Programa&ccedil;&atilde;o ser&aacute; realizada juntamente com o XV Simp&oacute;sio de Inform&aacute;tica - SIRC/RS 2019, no dia <strong>21/10/2019 das 18:30 &agrave;s 22:00, no Laborat&oacute;rio 108/Pr&eacute;dio 3 do Conjunto I</strong>.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Na abertura, haver&aacute; uma sess&atilde;o de apresenta&ccedil;&atilde;o, distribui&ccedil;&atilde;o de materiais e ambienta&ccedil;&atilde;o no local da prova &agrave;s 18:00, ap&oacute;s o in&iacute;cio da sess&atilde;o de apresenta&ccedil;&atilde;o n&atilde;o ser&aacute; permitida acesso ao local da prova.</p>\r\n<p>&nbsp;&nbsp;&nbsp; N&atilde;o ser&atilde;o tolerados atrasos. Recomenda-se &agrave;s equipes concorrentes que procurem estar no local de realiza&ccedil;&atilde;o da prova com um m&iacute;nimo de meia hora de anteced&ecirc;ncia, ou seja, as 18:00.</p>\r\n<p>&nbsp;&nbsp;&nbsp; N&atilde;o ser&aacute; permitida, ap&oacute;s iniciada as provas, a aus&ecirc;ncia de qualquer integrante das equipes da sala de realiza&ccedil;&atilde;o da competi&ccedil;&atilde;o, sob pena de desclassifica&ccedil;&atilde;o da equipe. Exceto em casos autorizados pela comiss&atilde;o organizadora.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>6. Fontes de Refer&ecirc;ncia</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; As equipes concorrentes poder&atilde;o levar para o recinto da prova materiais de refer&ecirc;ncia impressos, tais como: livros, apostilas e manuais. N&atilde;o ser&atilde;o permitidos materiais em meio magn&eacute;tico, digital e equipamentos eletr&ocirc;nicos, como vers&otilde;es de programas, dados, aparelho celular, pagers, etc.</p>\r\n<p>&nbsp; &nbsp; Ser&aacute; necess&aacute;rio avesso a internet devido ao software que ser&aacute; utilizado. Qualquer outro site aberto causara na desclassifica&ccedil;&atilde;o.</p>\r\n<p><strong>7. Ambiente Operacional</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; A linguagem de programa&ccedil;&atilde;o pode ser a que a equipe desejar, desde que a mesma encontre-se dispon&iacute;vel pelo&nbsp;HackerRank. Mais informa&ccedil;&otilde;es em <a href=\"https://www.hackerrank.com/\">https://www.hackerrank.com/</a>.</p>\r\n<p>&nbsp;&nbsp;&nbsp; As esta&ccedil;&otilde;es de trabalho ser&atilde;o PC Compat&iacute;veis, sendo destinado, a cada equipe 1 (um) computador. Somente ser&aacute; permitido a utiliza&ccedil;&atilde;o dos equipamentos disponibilizados pela comiss&atilde;o organizadora.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>8. A Prova</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; A prova da VII Olimp&iacute;ada de Programa&ccedil;&atilde;o da Unifra consistir&aacute; de uma bateria de problemas a serem resolvidos na data da prova. As equipes submeter&atilde;o as poss&iacute;veis solu&ccedil;&otilde;es &agrave; Comiss&atilde;o Julgadora &agrave; medida que as obtiverem. Essa avaliar&aacute; a submiss&atilde;o, aprovando-a ou rejeitando-a e notificando os membros da equipe. No caso de rejei&ccedil;&atilde;o, as equipes poder&atilde;o submeter novas solu&ccedil;&otilde;es para o mesmo problema. D&uacute;vidas sobre quaisquer ambiguidades ou erros na formula&ccedil;&atilde;o dos problemas devem ser encaminhadas &agrave; comiss&atilde;o julgadora por meio de uma Requisi&ccedil;&atilde;o de Esclarecimento. Se a comiss&atilde;o organizadora concluir que realmente existe erro ou ambiguidade, o esclarecimento ser&aacute; estendido &agrave;s demais equipes concorrentes.</p>\r\n<p>&nbsp;&nbsp;&nbsp; O local de realiza&ccedil;&atilde;o da prova ser&aacute; no&nbsp;<strong>Laborat&oacute;rio 108/Pr&eacute;dio 3 do Conjunto I</strong>.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>9. Organiza&ccedil;&atilde;o Disciplinar</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Os concorrentes n&atilde;o dever&atilde;o estabelecer nenhum tipo de comunica&ccedil;&atilde;o com pessoas que n&atilde;o integrem suas respectivas equipes ou que n&atilde;o tenham sido especificamente designadas pela coordena&ccedil;&atilde;o da Olimp&iacute;ada.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Eventuais problemas no sistema dever&atilde;o ser comunicados &agrave; equipe de suporte obedecendo a procedimentos previamente combinados.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Qualquer comportamento irregular de qualquer membro da equipe, que prejudique o bom andamento da prova, poder&aacute;, a crit&eacute;rio da coordena&ccedil;&atilde;o da Olimp&iacute;ada, levar &agrave; desclassifica&ccedil;&atilde;o da equipe.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>10. Altera&ccedil;&otilde;es na Dura&ccedil;&atilde;o da Prova</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Situa&ccedil;&otilde;es imprevistas podem, a crit&eacute;rio da coordena&ccedil;&atilde;o da Olimp&iacute;ada, motivar um prolongamento do prazo para resolu&ccedil;&atilde;o dos problemas. Nesta eventualidade, todas as equipes ser&atilde;o notificadas em tempo h&aacute;bil e de maneira uniforme.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>11. Contagem de Pontos</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Os problemas ser&atilde;o entregues em sua totalidade &agrave;s equipes participantes, ou seja, poder&atilde;o realizar e entregar os problemas por meio do sistema HackerRank na ordem que desejarem.</p>\r\n<p>&nbsp;&nbsp;&nbsp; O primeiro crit&eacute;rio para a classifica&ccedil;&atilde;o das equipes &eacute; a quantidade de problemas resolvidos corretamente. Uma resolu&ccedil;&atilde;o ser&aacute; considerada incorreta se:</p>\r\n<ol>\r\n<li>O programa n&atilde;o puder ser compilado corretamente;</li>\r\n<li>Sua execu&ccedil;&atilde;o n&atilde;o terminar dentro de um prazo satisfat&oacute;rio, ou ocorrer um erro na execu&ccedil;&atilde;o;</li>\r\n<li>O programa fornecer resposta incorreta;</li>\r\n<li>A sa&iacute;da n&atilde;o tiver no formato especificado no enunciado da quest&atilde;o.</li>\r\n</ol>\r\n<p>&nbsp;&nbsp;&nbsp; Caso haja empate entre equipes, quanto &agrave; quantidade quest&otilde;es resolvidas, o crit&eacute;rio de desempate ser&aacute; o tempo total gasto na solu&ccedil;&atilde;o dos problemas.</p>\r\n<p>&nbsp;&nbsp;&nbsp; O tempo total &eacute; a soma dos tempos consumidos para a resolu&ccedil;&atilde;o de cada um dos problemas. Estes tempos s&atilde;o calculados atrav&eacute;s da soma do tempo transcorrido do in&iacute;cio do problema at&eacute; a resolu&ccedil;&atilde;o do mesmo.</p>\r\n<p>&nbsp;&nbsp;&nbsp; A Comiss&atilde;o Julgadora da Olimp&iacute;ada de Programa&ccedil;&atilde;o &eacute; a &uacute;nica respons&aacute;vel por decidir sobre a corre&ccedil;&atilde;o das solu&ccedil;&otilde;es apresentadas para cada problema. A Comiss&atilde;o Julgadora t&ecirc;m plenos poderes para julgar situa&ccedil;&otilde;es n&atilde;o previstas e suas decis&otilde;es s&atilde;o finais.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>12. Atividades Obrigat&oacute;rias</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Todas as equipes homologadas dever&atilde;o participar das atividades</p>\r\n<p>&nbsp; &nbsp; obrigat&oacute;rias da Olimp&iacute;ada:</p>\r\n<ul>\r\n<li>Sess&atilde;o de Apresenta&ccedil;&atilde;o;</li>\r\n<li>Prova.</li>\r\n</ul>\r\n<p>&nbsp;&nbsp;&nbsp; As aus&ecirc;ncias implicam na autom&aacute;tica desclassifica&ccedil;&atilde;o da equipe e suspens&atilde;o de pr&ecirc;mios e certificados.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>13. Premia&ccedil;&atilde;o</strong></p>\r\n<p>&nbsp;&nbsp;&nbsp; Ser&atilde;o premiados os primeiros e segundos lugares das duas categorias.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Todos os participantes receber&atilde;o um Certificado de Participa&ccedil;&atilde;o emitido pelo evento.</p>\r\n<p>&nbsp;&nbsp;&nbsp; Quaisquer d&uacute;vidas, em raz&atilde;o de detalhes n&atilde;o contemplados pelo presente regulamento, dever&atilde;o ser encaminhadas &agrave; Comiss&atilde;o Organizadora, que goza de plenos poderes para o julgamento de situa&ccedil;&otilde;es pendentes.</p>\r\n<hr />\r\n<p>Os alunos que tiverem interesse em participar e n&atilde;o conseguirem formar equipes, por favor entrem em contato com a Comiss&atilde;o Organizadora da Ol&iacute;mpiada:</p>\r\n<ul>\r\n<li>Guilherme C. Kurtz</li>\r\n<li>Mirkos Martins</li>\r\n<li>Fabr&iacute;cio Tonetto Londero</li>\r\n</ul>",
+        "status": 1
+    }
+},
+{
+    "model": "core.paginas",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-08-01T20:29:40.315Z",
+        "modificado_em": "2019-08-02T16:05:27.001Z",
+        "titulo": "Inscri\u00e7\u00f5es",
+        "slug": "inscricoes",
+        "descricao": "<pre class=\"lang-py prettyprint prettyprinted\"><code></code><code></code></pre>",
+        "status": 1
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-08-04T14:57:26.266Z",
+        "modificado_em": "2019-08-28T14:26:43.750Z",
+        "nome": "Jo\u00e3o Gilberto Martins Gomes",
+        "email": "jgmartynss@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": "https://avatars0.githubusercontent.com/u/23270279?s=460&v=4",
+        "instituicao": "UFN"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-08-08T21:58:14.044Z",
+        "modificado_em": "2019-08-30T22:09:24.204Z",
+        "nome": "Luiza Beck Arigoni",
+        "email": "luizaarigoni@hotmail.com",
+        "avatar": "",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-08-08T21:59:45.886Z",
+        "modificado_em": "2019-08-30T22:10:31.307Z",
+        "nome": "Cristiano Flores dos Santos",
+        "email": "cristiano.santus@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-08-08T22:01:17.211Z",
+        "modificado_em": "2019-08-30T22:13:29.165Z",
+        "nome": "Tiago Rios da Rocha",
+        "email": "tiagoriosrocha@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2019-08-28T14:32:48.123Z",
+        "modificado_em": "2019-08-30T22:11:54.507Z",
+        "nome": "Rodrigo Goulart",
+        "email": "rodrigo.goulart@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": null,
+        "instituicao": "Feevale"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-08-28T14:35:02.078Z",
+        "modificado_em": "2019-08-30T22:10:56.169Z",
+        "nome": "Nielsen Rechia",
+        "email": "rechianielsen@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": null,
+        "instituicao": "Agibank/Uniritter"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-09-04T14:43:08.775Z",
+        "modificado_em": "2019-09-04T14:43:08.775Z",
+        "nome": "Claudio Rocha Lobato",
+        "email": "crlobato@avmb.com.br",
+        "avatar": "palestrantes/avatar/Claudio_Cacau.png",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2019-09-04T14:44:30.399Z",
+        "modificado_em": "2019-09-04T14:44:30.399Z",
+        "nome": "Lucas Fagundes",
+        "email": "lucas.fagundes@somosphi.com",
+        "avatar": "palestrantes/avatar/lucas.jpeg",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-09-04T14:45:17.609Z",
+        "modificado_em": "2019-09-04T14:45:35.820Z",
+        "nome": "Nilson Silva Vieira",
+        "email": "nilson.vieira@somosphi.com",
+        "avatar": "palestrantes/avatar/Nilson.jpg",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-09-04T15:44:49.758Z",
+        "modificado_em": "2019-09-04T15:44:49.758Z",
+        "nome": "Cau\u00e3 Ferreira da Silva",
+        "email": "cauafs@gmail.com",
+        "avatar": "palestrantes/avatar/Caua.jpg",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2019-09-13T00:33:31.012Z",
+        "modificado_em": "2019-09-13T20:47:56.578Z",
+        "nome": "Alexandre de O. Zamberlan",
+        "email": "alexz@ufn.edu.br",
+        "avatar": "",
+        "avatar_hospedado": "https://scontent.fria1-1.fna.fbcdn.net/v/t1.0-9/1466112_10152053577184801_883516188_n.jpg?_nc_cat=102&_nc_oc=AQnf6mp4NuVBU-ynNvy6INCbS3vBRjEL2gOEzWb1ooCIvDczA0nhvxhvEsMDOFBJnj9zAx8Zo6CWkMxbzk61ICMu&_n",
+        "instituicao": "UFN"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 12,
+    "fields": {
+        "criado_em": "2019-09-13T00:35:35.532Z",
+        "modificado_em": "2019-09-13T00:35:35.532Z",
+        "nome": "Douglas Tybusch",
+        "email": "tybusch.douglas@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": "https://scontent.fria1-1.fna.fbcdn.net/v/t1.0-9/32960603_1716617338432031_1895621246729584640_n.jpg?_nc_cat=104&_nc_oc=AQnu64MZb0xveELNaXt4Gd1gS5Ha2HdSoYnM4meoHWW1j9LxovyZ7erEuH___4I5GaM0xzysYDWzvZRsC",
+        "instituicao": "UFN"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 13,
+    "fields": {
+        "criado_em": "2019-09-26T14:40:13.230Z",
+        "modificado_em": "2019-09-26T14:40:13.230Z",
+        "nome": "Diego Zuge",
+        "email": "comunicacao@syntesis.com.br",
+        "avatar": "",
+        "avatar_hospedado": "https://media.licdn.com/dms/image/C4E03AQE4GDdmtcwW4Q/profile-displayphoto-shrink_800_800/0?e=1574899200&v=beta&t=O9xfjo__Gdd809HCcWrGlnm9BPUBn5Z0mrr6uNUV2C0",
+        "instituicao": "ULBRA"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 14,
+    "fields": {
+        "criado_em": "2019-09-26T14:42:11.442Z",
+        "modificado_em": "2019-09-26T14:42:11.442Z",
+        "nome": "Eduardo Reis",
+        "email": "dado.mdr@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": "https://scontent.fria1-1.fna.fbcdn.net/v/t1.0-9/56521004_2796028007081933_8694941220922720256_n.jpg?_nc_cat=109&_nc_oc=AQmy4PEwr5gG7mb92lhikxNyfaJskyJpwFP1xlNTSuXz4Yhjon6BsiZEJCeY-SE-uW4Fk1439SVpw71as",
+        "instituicao": "UFN"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 15,
+    "fields": {
+        "criado_em": "2019-09-26T14:45:05.649Z",
+        "modificado_em": "2019-09-26T14:45:05.649Z",
+        "nome": "Henrique Leal",
+        "email": "henriquemartinsleal@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": "https://pbs.twimg.com/profile_images/985933891826601989/f6_eggjk_200x200.jpg",
+        "instituicao": "UFN"
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 16,
+    "fields": {
+        "criado_em": "2019-09-26T14:48:31.140Z",
+        "modificado_em": "2019-09-26T14:48:31.140Z",
+        "nome": "Marcelo Borges Recchi",
+        "email": "marcelo.recchi@gmail.com",
+        "avatar": "",
+        "avatar_hospedado": "https://scontent.fria1-1.fna.fbcdn.net/v/t1.0-9/47320551_2012232142167726_2917218113307017216_n.jpg?_nc_cat=108&_nc_oc=AQmyJZy2XXs6WE8gFhLjZgW0EcPPDNldJCM_AvuvQXdwBYdO4WbSQBHyfdUX4Z6OsS-pXiNGeD3-8KRfX",
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 17,
+    "fields": {
+        "criado_em": "2019-09-26T16:37:20.768Z",
+        "modificado_em": "2019-09-26T16:37:20.768Z",
+        "nome": "Thiago Borba",
+        "email": "thiago.borba@avmb.com.br",
+        "avatar": "palestrantes/avatar/Thiago.jpg",
+        "avatar_hospedado": null,
+        "instituicao": ""
+    }
+},
+{
+    "model": "core.palestrantes",
+    "pk": 18,
+    "fields": {
+        "criado_em": "2019-09-26T16:38:14.456Z",
+        "modificado_em": "2019-09-26T16:38:14.456Z",
+        "nome": "Roger Cristiano Schardong",
+        "email": "roger@avmb.com.br",
+        "avatar": "palestrantes/avatar/Roger.jpg",
+        "avatar_hospedado": null,
+        "instituicao": "UNISINOS"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-08-04T14:57:26.271Z",
+        "modificado_em": "2019-08-04T14:57:26.271Z",
+        "palestrante": 1,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/jgmartinsss"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-08-04T14:57:26.274Z",
+        "modificado_em": "2019-08-04T14:57:26.274Z",
+        "palestrante": 1,
+        "tipo": "fab fa-fw fa-1x fa-github-square",
+        "link": "http://github.com/jgmartinss/"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-08-08T21:58:14.051Z",
+        "modificado_em": "2019-08-08T21:58:14.051Z",
+        "palestrante": 2,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/luarigoni"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-08-08T21:59:45.889Z",
+        "modificado_em": "2019-08-08T21:59:45.889Z",
+        "palestrante": 3,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/profile.php?id=100000220793756"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2019-08-08T22:01:17.221Z",
+        "modificado_em": "2019-08-08T22:01:17.221Z",
+        "palestrante": 4,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/tiagoriosrocha"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-08-28T14:32:48.130Z",
+        "modificado_em": "2019-08-28T14:32:48.130Z",
+        "palestrante": 5,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/rodrigo.goulart.feevale"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-08-28T14:35:02.115Z",
+        "modificado_em": "2019-08-28T14:35:02.115Z",
+        "palestrante": 6,
+        "tipo": "fab fa-fw fa-1x fa-twitter-square",
+        "link": "https://twitter.com/NielsenRechia"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2019-08-28T14:35:02.141Z",
+        "modificado_em": "2019-08-28T14:35:02.141Z",
+        "palestrante": 6,
+        "tipo": "fab fa-fw fa-1x fa-blogger",
+        "link": "https://nielsenrechia.netlify.com/"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-08-28T14:35:02.162Z",
+        "modificado_em": "2019-08-28T14:35:02.162Z",
+        "palestrante": 6,
+        "tipo": "fas fa-fw fa-1x fa-link",
+        "link": "http://lattes.cnpq.br/5547209032732533"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-08-28T14:35:02.183Z",
+        "modificado_em": "2019-08-28T14:35:02.183Z",
+        "palestrante": 6,
+        "tipo": "fab fa-fw fa-1x fa-linkedin",
+        "link": "https://www.linkedin.com/in/nielsenrechia/"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2019-09-04T14:43:08.780Z",
+        "modificado_em": "2019-09-04T14:43:08.780Z",
+        "palestrante": 7,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/ClaudioRochaLobato"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 12,
+    "fields": {
+        "criado_em": "2019-09-04T14:44:30.401Z",
+        "modificado_em": "2019-09-04T14:44:30.401Z",
+        "palestrante": 8,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/olucasfagundes"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 13,
+    "fields": {
+        "criado_em": "2019-09-04T14:45:17.615Z",
+        "modificado_em": "2019-09-04T14:45:17.615Z",
+        "palestrante": 9,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/nilson.vieira.9"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 14,
+    "fields": {
+        "criado_em": "2019-09-04T15:44:49.760Z",
+        "modificado_em": "2019-09-04T15:44:49.760Z",
+        "palestrante": 10,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/caua.fs"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 15,
+    "fields": {
+        "criado_em": "2019-09-04T15:44:49.762Z",
+        "modificado_em": "2019-09-04T15:44:49.762Z",
+        "palestrante": 10,
+        "tipo": "fab fa-fw fa-1x fa-linkedin",
+        "link": "https://br.linkedin.com/in/cauafs"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 16,
+    "fields": {
+        "criado_em": "2019-09-04T15:44:49.763Z",
+        "modificado_em": "2019-09-04T15:44:49.763Z",
+        "palestrante": 10,
+        "tipo": "fab fa-fw fa-1x fa-blogger",
+        "link": "https://www.behance.net/cauafs"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 17,
+    "fields": {
+        "criado_em": "2019-09-13T00:33:31.014Z",
+        "modificado_em": "2019-09-13T00:33:31.014Z",
+        "palestrante": 11,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/alexandre.d.zamberlan"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 18,
+    "fields": {
+        "criado_em": "2019-09-13T00:33:31.017Z",
+        "modificado_em": "2019-09-13T00:33:31.017Z",
+        "palestrante": 11,
+        "tipo": "fab fa-fw fa-1x fa-github-square",
+        "link": "https://github.com/alexandrezamberlan"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 19,
+    "fields": {
+        "criado_em": "2019-09-13T00:33:31.019Z",
+        "modificado_em": "2019-09-13T00:33:31.019Z",
+        "palestrante": 11,
+        "tipo": "fab fa-fw fa-1x fa-twitter-square",
+        "link": "https://twitter.com/alexzamberlan"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 20,
+    "fields": {
+        "criado_em": "2019-09-13T00:35:35.534Z",
+        "modificado_em": "2019-09-13T00:35:35.534Z",
+        "palestrante": 12,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://www.facebook.com/douglas.tybusch?ref=br_rs"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 21,
+    "fields": {
+        "criado_em": "2019-09-26T14:40:13.251Z",
+        "modificado_em": "2019-09-26T14:40:13.251Z",
+        "palestrante": 13,
+        "tipo": "fab fa-fw fa-1x fa-linkedin",
+        "link": "https://www.linkedin.com/in/diego-spiegelberg-zuge-3569a037/"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 22,
+    "fields": {
+        "criado_em": "2019-09-26T14:42:11.443Z",
+        "modificado_em": "2019-09-26T14:42:11.443Z",
+        "palestrante": 14,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://facebook.com/eduardo.m.reis.3"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 23,
+    "fields": {
+        "criado_em": "2019-09-26T14:42:11.446Z",
+        "modificado_em": "2019-09-26T14:42:11.446Z",
+        "palestrante": 14,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "https://facebook.com/ARTaoCUBO"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 24,
+    "fields": {
+        "criado_em": "2019-09-26T14:45:05.652Z",
+        "modificado_em": "2019-09-26T14:45:05.653Z",
+        "palestrante": 15,
+        "tipo": "fab fa-fw fa-1x fa-twitter-square",
+        "link": "https://twitter.com/hmleal"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 25,
+    "fields": {
+        "criado_em": "2019-09-26T14:45:05.658Z",
+        "modificado_em": "2019-09-26T14:45:05.658Z",
+        "palestrante": 15,
+        "tipo": "fab fa-fw fa-1x fa-github-square",
+        "link": "https://github.com/hmleal"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 26,
+    "fields": {
+        "criado_em": "2019-09-26T14:48:31.153Z",
+        "modificado_em": "2019-09-26T14:48:31.153Z",
+        "palestrante": 16,
+        "tipo": "fab fa-fw fa-1x fa-facebook",
+        "link": "http://www.facebook.com/marcelo.recchi"
+    }
+},
+{
+    "model": "core.midiassociais",
+    "pk": 27,
+    "fields": {
+        "criado_em": "2019-09-26T14:48:31.179Z",
+        "modificado_em": "2019-09-26T14:48:31.179Z",
+        "palestrante": 16,
+        "tipo": "fab fa-fw fa-1x fa-linkedin",
+        "link": "http://br.linkedin.com/in/marcelorecchi"
+    }
+},
+{
+    "model": "core.local",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-08-04T14:59:41.562Z",
+        "modificado_em": "2019-08-04T14:59:41.562Z",
+        "nome": "Laborat\u00f3rio de Inform\u00e1tica"
+    }
+},
+{
+    "model": "core.local",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-08-08T22:04:22.192Z",
+        "modificado_em": "2019-08-08T22:04:22.192Z",
+        "nome": "Sal\u00e3o Azul"
+    }
+},
+{
+    "model": "core.sirc",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-07-26T19:34:13.298Z",
+        "modificado_em": "2019-07-26T19:34:13.298Z",
+        "edicao": 15
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 1,
+    "fields": {
+        "criado_em": "2019-08-04T14:59:48.155Z",
+        "modificado_em": "2019-08-04T14:59:48.155Z",
+        "titulo": "Django - O framework web para perfeccionistas com prazos",
+        "slug": "django-o-framework-web-para-perfeccionistas-com-pr",
+        "resumo": "Jo\u00e3o \u00e9 T\u00e9cnico em Inform\u00e1tica pelo SENAI, Acad\u00eamico de Sistemas de Informa\u00e7\u00e3o na UFN, Pythonista e entusiasta por Testes.",
+        "publico_alvo": 1,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "08:00:00",
+        "data": "2019-10-24",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            1
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 2,
+    "fields": {
+        "criado_em": "2019-08-08T22:05:02.904Z",
+        "modificado_em": "2019-09-26T16:51:41.323Z",
+        "titulo": "Desenvolvimento e Inova\u00e7\u00e3o para a diversidade funcional: desafios e oportunidades para os profissionais de Tecnologia",
+        "slug": "desenvolvimento-e-inovacao-para-diversidade-funcio",
+        "resumo": "Desenvolvimento e Inova\u00e7\u00e3o para a diversidade funcional: desafios e oportunidades para os profissionais de Tecnologia",
+        "publico_alvo": 1,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "08:30:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            2
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 3,
+    "fields": {
+        "criado_em": "2019-08-08T22:09:11.073Z",
+        "modificado_em": "2019-09-26T16:57:51.482Z",
+        "titulo": "O Framework PHP L\u00e1ravel",
+        "slug": "o-framework-php-laravel",
+        "resumo": "Minicurso com foco no desenvolvimento de websites com um dos principais Frameworks de desenvolvimento para a Linguagem PHP da atualidade.",
+        "publico_alvo": 2,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "18:00:00",
+        "data": "2019-10-24",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            4
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 4,
+    "fields": {
+        "criado_em": "2019-08-08T22:11:53.836Z",
+        "modificado_em": "2019-09-26T16:52:07.713Z",
+        "titulo": "Nuvens de pontos 3D",
+        "slug": "nuvens-de-pontos-3d",
+        "resumo": "O aumento do poder computacional juntamente com os avan\u00e7os tecnol\u00f3gicos dos sensores de captura e displays, possibilitam experi\u00eancias cada vez mais realistas e com maior qualidade  para a visualiza\u00e7\u00e3o de conte\u00fados como v\u00eddeos digitais. No entanto, s\u00e3o tend\u00eancias para o futuro, tecnologias mais interativas e imersivas por meio de mapeamento e visualiza\u00e7\u00e3o 3D. Nesse contexto, as nuvens de pontos est\u00e3o entre as formas de representa\u00e7\u00e3o tridimensional que podem revolucionar aplica\u00e7\u00f5es como realidade virtual ou mista, assim como o mercado de jogos digitais. Esta palestra tem como objetivo apresentar conceitos fundamentais sobre nuvens de pontos 3D, bem como as suas possibilidades de aplica\u00e7\u00f5es e os seus desafios.",
+        "publico_alvo": 1,
+        "tipo": 1,
+        "dia": 1,
+        "status": 1,
+        "hora": "10:30:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            3
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2019-08-28T14:38:16.649Z",
+        "modificado_em": "2019-08-28T14:38:16.649Z",
+        "titulo": "D2A: Data-driven Agibank. A cultura de uma empresa orientada a dados.",
+        "slug": "d2a-data-driven-agibank-cultura-de-uma-empresa-ori",
+        "resumo": "Estabelecer um processo em dire\u00e7\u00e3o ao modelo Data-driven n\u00e3o exige sacrif\u00edcios gigantescos. Por\u00e9m, atualmente, menos de 10% das empresas est\u00e3o em um est\u00e1gio mais avan\u00e7ado do uso de dados, e isso revela uma enorme capacidade de avan\u00e7o. Contudo, para que uma empresa seja considerada Data-driven n\u00e3o se deve somente atingir determinadas m\u00e9tricas, mas tamb\u00e9m realizar uma mudan\u00e7a de cultura visando conduzir processos e tomadas de decis\u00e3o com base em sabedoria oriunda de dados. Dessa forma, infer\u00eancias desprovidas de maior estudo ou baseadas apenas em experi\u00eancia deixar\u00e3o de ser realizadas. Neste sentido, ser\u00e1 apresentado o modelo Data-driven Agibank \u2013 D2A, que busca um diferencial competitivo por meio de m\u00e9todos, t\u00e9cnicas e processos inovadores com base em dados.",
+        "publico_alvo": 1,
+        "tipo": 1,
+        "dia": 1,
+        "status": 1,
+        "hora": "08:30:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            6
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-08-28T14:42:10.062Z",
+        "modificado_em": "2019-09-26T16:50:26.389Z",
+        "titulo": "PLN como parte de sistemas de comportamento inteligente",
+        "slug": "pln-como-parte-de-sistemas-de-comportamento-inteli",
+        "resumo": "PLN como parte de sistemas de comportamento inteligente",
+        "publico_alvo": 2,
+        "tipo": 1,
+        "dia": 1,
+        "status": 1,
+        "hora": "18:30:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            5
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-09-04T14:46:25.972Z",
+        "modificado_em": "2019-09-04T14:46:25.972Z",
+        "titulo": "Arquitetura de Microservices - Case de implementa\u00e7\u00e3o da stack Netflix OSS para orquestra\u00e7\u00e3o de microsservices e a evolu\u00e7\u00e3o dessa solu\u00e7\u00e3o para Istio",
+        "slug": "arquitetura-de-microservices-case-de-implementacao",
+        "resumo": "O objetivo da palestra \u00e9 apresentar a Arquitetura de Microservices, Docker, Orquestra\u00e7\u00e3o de Containers, Infraestrutura como C\u00f3digo utilizando a Stack Netflix OSS, Kubernetes, Istio, Rancher,Terraform e o conceito GitOps compartilhando o case implementado na Phi - Fintech As A Service - do Hub 4all.",
+        "publico_alvo": 2,
+        "tipo": 1,
+        "dia": 1,
+        "status": 1,
+        "hora": "20:30:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            8,
+            9
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2019-09-04T14:47:02.903Z",
+        "modificado_em": "2019-09-04T14:47:02.908Z",
+        "titulo": "AVMB, uma empresa Santamariense",
+        "slug": "avmb-uma-empresa-santamariense",
+        "resumo": "Hist\u00f3rico de desenvolvimento da \u00e1rea de inform\u00e1tica em Santa Maria",
+        "publico_alvo": 2,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "20:30:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            7
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-09-04T15:46:06.521Z",
+        "modificado_em": "2019-09-04T15:46:06.521Z",
+        "titulo": "Precisamos falar sobre: Mercado de jogos no Brasil",
+        "slug": "precisamos-falar-sobre-mercado-de-jogos-no-brasil",
+        "resumo": "O mercado de jogos sob a \u00f3tica de um designer generalista, do empreendedorismo \u00e0 carteira assinada.",
+        "publico_alvo": 3,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "14:00:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            10
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-09-13T00:45:05.411Z",
+        "modificado_em": "2019-09-13T20:49:54.152Z",
+        "titulo": "Latex no Overleaf: escrevendo e apresentando com ferramentas de qualidade",
+        "slug": "latex-no-overleaf-escrevendo-e-apresentando-com-fe",
+        "resumo": "O Overleaf \u00e9 um editor e compilador online de LaTeX. \r\nCom ele, voc\u00ea pode manter o foco na escrita do seu trabalho, sem se preocupar com a formata\u00e7\u00e3o do conte\u00fado!",
+        "publico_alvo": 3,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "14:00:00",
+        "data": "2019-10-24",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            11
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2019-09-13T00:50:56.353Z",
+        "modificado_em": "2019-09-13T11:24:26.827Z",
+        "titulo": "Flutter - O Novo Framework da Google para desenvolvimento de Apps Mobile",
+        "slug": "titulo-flutter-o-novo-framework-da-google-para-des",
+        "resumo": "Flutter \u00e9 um SDK para desenvolvimento m\u00f3vel multiplataforma (iOS e Android) lan\u00e7ado pela Google em 2017. Apesar de ter sido lan\u00e7ado recentemente, Flutter possui frameworks, ferramentas e widgets pr\u00f3prios que facilitam a cria\u00e7\u00e3o de interfaces para ambas plataformas.\r\n\r\nFlutter \u00e9 baseado em Dart, uma linguagem orientada a objeto tamb\u00e9m desenvolvida pela Google, anunciada em 2011. Apesar de ser uma linguagem popularizada recentemente, \u00e9 uma linguagem pr\u00e1tica e f\u00e1cil de aprender, principalmente porque possui uma sintaxe similar a Java e C#.",
+        "publico_alvo": 2,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "18:00:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            12
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 12,
+    "fields": {
+        "criado_em": "2019-09-26T16:39:45.048Z",
+        "modificado_em": "2019-09-26T16:39:45.049Z",
+        "titulo": "Introdu\u00e7\u00e3o a Rigging no 3ds MAX",
+        "slug": "introducao-rigging-no-3ds-max",
+        "resumo": "Aprender a desenvolver a estrutura de ossos e criar controladores para anima\u00e7\u00e3o de personagens.",
+        "publico_alvo": 3,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "14:00:00",
+        "data": "2019-10-24",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            16
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 13,
+    "fields": {
+        "criado_em": "2019-09-26T16:40:52.044Z",
+        "modificado_em": "2019-09-26T16:52:23.013Z",
+        "titulo": "Como a faculdade me instrumentalizou para o mercado de trabalho",
+        "slug": "como-faculdade-me-instrumentalizou-para-o-mercado",
+        "resumo": "Atrav\u00e9s de exemplos em projetos reais e situa\u00e7\u00f5es engra\u00e7adas essa palestra vai te mostrar como a faculdade fornece os conhecimentos necess\u00e1rio para voc\u00ea se dar bem no mercado de trabalho.",
+        "publico_alvo": 1,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "10:30:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            15
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 14,
+    "fields": {
+        "criado_em": "2019-09-26T16:42:01.630Z",
+        "modificado_em": "2019-09-26T16:42:01.630Z",
+        "titulo": "Formas de apresentar meu jogo",
+        "slug": "formas-de-apresentar-meu-jogo",
+        "resumo": "Formas de divulgar o seu jogo!",
+        "publico_alvo": 3,
+        "tipo": 1,
+        "dia": 1,
+        "status": 1,
+        "hora": "14:00:00",
+        "data": "2019-10-22",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            14
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 15,
+    "fields": {
+        "criado_em": "2019-09-26T16:43:23.444Z",
+        "modificado_em": "2019-09-26T16:43:23.444Z",
+        "titulo": "Criando uma aplica\u00e7\u00e3o MVC em .Net Core + EF + Mysql no Linux com o auxilio de containers Docker",
+        "slug": "criando-uma-aplicacao-mvc-em-net-core-ef-mysql-no",
+        "resumo": "O objetivo do minicurso \u00e9 criar uma aplica\u00e7\u00e3o contendo os principais fundamentos da arquitetura MVC no .Net Core, com a utiliza\u00e7\u00e3o de containers docker para montagem da infraestrutura do banco de dados MySQL, bem como a publica\u00e7\u00e3o da aplica\u00e7\u00e3o em uma imagem docker.",
+        "publico_alvo": 1,
+        "tipo": 2,
+        "dia": 3,
+        "status": 1,
+        "hora": "08:00:00",
+        "data": "2019-10-24",
+        "edicao": 1,
+        "local": 1,
+        "palestrantes": [
+            13
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 16,
+    "fields": {
+        "criado_em": "2019-09-26T16:49:01.736Z",
+        "modificado_em": "2019-09-26T16:49:01.736Z",
+        "titulo": "Metodologia \u00c1gil al\u00e9m da teoria",
+        "slug": "metodologia-agil-alem-da-teoria",
+        "resumo": "Resumo de metodologias \u00e1geis aplicadas ao desenvolvimento de software sob uma vis\u00e3o pr\u00e1tica e realista.",
+        "publico_alvo": 2,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "18:30:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            18
+        ]
+    }
+},
+{
+    "model": "core.palestras",
+    "pk": 17,
+    "fields": {
+        "criado_em": "2019-09-26T16:49:41.886Z",
+        "modificado_em": "2019-09-26T16:49:41.886Z",
+        "titulo": "BPM aplicado ao desenvolvimento de softwares",
+        "slug": "bpm-aplicado-ao-desenvolvimento-de-softwares",
+        "resumo": "Apresenta\u00e7\u00e3o de estudos de caso e outras reflex\u00f5es sobre a aplica\u00e7\u00e3o da metodologia de Gest\u00e3o de Processos de Neg\u00f3cio (BPM) no desenvolvimento de softwares",
+        "publico_alvo": 2,
+        "tipo": 1,
+        "dia": 2,
+        "status": 1,
+        "hora": "19:15:00",
+        "data": "2019-10-23",
+        "edicao": 1,
+        "local": 2,
+        "palestrantes": [
+            17
+        ]
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 5,
+    "fields": {
+        "criado_em": "2019-08-29T11:45:34.170Z",
+        "modificado_em": "2019-09-13T18:50:22.954Z",
+        "edicao": 2015,
+        "slug": "2015",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 6,
+    "fields": {
+        "criado_em": "2019-08-29T11:47:53.747Z",
+        "modificado_em": "2019-09-13T18:50:13.286Z",
+        "edicao": 2013,
+        "slug": "2013",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 7,
+    "fields": {
+        "criado_em": "2019-08-29T12:46:46.249Z",
+        "modificado_em": "2019-09-13T18:49:59.791Z",
+        "edicao": 2012,
+        "slug": "2012",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 8,
+    "fields": {
+        "criado_em": "2019-08-29T12:48:46.489Z",
+        "modificado_em": "2019-09-13T18:49:50.966Z",
+        "edicao": 2011,
+        "slug": "2011",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 9,
+    "fields": {
+        "criado_em": "2019-08-29T12:49:27.813Z",
+        "modificado_em": "2019-09-13T18:49:38.294Z",
+        "edicao": 2010,
+        "slug": "2010",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 10,
+    "fields": {
+        "criado_em": "2019-08-29T12:50:05.379Z",
+        "modificado_em": "2019-09-13T18:49:22.573Z",
+        "edicao": 2009,
+        "slug": "2009",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 11,
+    "fields": {
+        "criado_em": "2019-08-29T12:50:55.512Z",
+        "modificado_em": "2019-09-13T18:48:59.044Z",
+        "edicao": 2008,
+        "slug": "2008",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 12,
+    "fields": {
+        "criado_em": "2019-08-29T12:51:31.862Z",
+        "modificado_em": "2019-09-13T18:48:47.812Z",
+        "edicao": 2007,
+        "slug": "2007",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 13,
+    "fields": {
+        "criado_em": "2019-08-29T12:52:09.159Z",
+        "modificado_em": "2019-09-13T18:48:36.504Z",
+        "edicao": 2006,
+        "slug": "2006",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 14,
+    "fields": {
+        "criado_em": "2019-08-29T12:52:53.152Z",
+        "modificado_em": "2019-09-13T18:48:20.688Z",
+        "edicao": 2005,
+        "slug": "2005",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 15,
+    "fields": {
+        "criado_em": "2019-08-29T12:53:40.444Z",
+        "modificado_em": "2019-09-13T18:48:10.204Z",
+        "edicao": 2004,
+        "slug": "2004",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 16,
+    "fields": {
+        "criado_em": "2019-08-29T12:54:09.338Z",
+        "modificado_em": "2019-09-13T18:47:56.247Z",
+        "edicao": 2003,
+        "slug": "2003",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 17,
+    "fields": {
+        "criado_em": "2019-08-29T12:54:46.000Z",
+        "modificado_em": "2019-09-13T18:47:39.813Z",
+        "edicao": 2002,
+        "slug": "2002",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anais",
+    "pk": 18,
+    "fields": {
+        "criado_em": "2019-08-29T13:02:07.969Z",
+        "modificado_em": "2019-09-13T18:47:26.654Z",
+        "edicao": 2017,
+        "slug": "2017",
+        "thumbnail": "",
+        "thumbnail_hospedado": null
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 45,
+    "fields": {
+        "criado_em": "2019-08-29T11:45:34.173Z",
+        "modificado_em": "2019-08-29T11:45:34.173Z",
+        "nome": "Anais 2015",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/b/s!AmvVbAcFSr971rwd6tJqgQs1CAWmAg?e=ezkm74",
+        "anais": 5
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 46,
+    "fields": {
+        "criado_em": "2019-08-29T11:47:53.750Z",
+        "modificado_em": "2019-08-29T11:47:53.750Z",
+        "nome": "Anais 2013",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/b/s!AmvVbAcFSr971rwbU7_araUhEfuymw?e=sXGl5v",
+        "anais": 6
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 47,
+    "fields": {
+        "criado_em": "2019-08-29T12:46:46.255Z",
+        "modificado_em": "2019-08-29T12:46:46.255Z",
+        "nome": "Anais 2012",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/b/s!AmvVbAcFSr971rwZ8nfLUFgpGMpWwQ?e=yIHaiZ",
+        "anais": 7
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 48,
+    "fields": {
+        "criado_em": "2019-08-29T12:48:46.499Z",
+        "modificado_em": "2019-08-29T12:48:46.499Z",
+        "nome": "Anais 2011",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/b/s!AmvVbAcFSr971rwaKZd-NLkExFHvyw?e=ciVzjq",
+        "anais": 8
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 49,
+    "fields": {
+        "criado_em": "2019-08-29T12:49:27.823Z",
+        "modificado_em": "2019-08-29T12:49:27.823Z",
+        "nome": "Anais 2010",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rlElHhplP6FxbJ_xw?e=rLW9Yg",
+        "anais": 9
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 50,
+    "fields": {
+        "criado_em": "2019-08-29T12:50:05.382Z",
+        "modificado_em": "2019-08-29T12:50:05.382Z",
+        "nome": "Anais 2009",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rlDUYNmYklOrvA7Yw?e=OYQgyJ",
+        "anais": 10
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 51,
+    "fields": {
+        "criado_em": "2019-08-29T12:50:55.522Z",
+        "modificado_em": "2019-08-29T12:50:55.522Z",
+        "nome": "Anais 2008",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rlC7W-huf9etBq5wg?e=axtwyR",
+        "anais": 11
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 52,
+    "fields": {
+        "criado_em": "2019-08-29T12:51:31.865Z",
+        "modificado_em": "2019-08-29T12:51:31.865Z",
+        "nome": "Anais 2007",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rlBEgunvIaa0umCAg?e=omorct",
+        "anais": 12
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 53,
+    "fields": {
+        "criado_em": "2019-08-29T12:52:09.163Z",
+        "modificado_em": "2019-08-29T12:52:09.163Z",
+        "nome": "Anais 2006",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rlABdIZma2XvxwvPg?e=NPTAdP",
+        "anais": 13
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 54,
+    "fields": {
+        "criado_em": "2019-08-29T12:52:53.175Z",
+        "modificado_em": "2019-08-29T12:52:53.175Z",
+        "nome": "Anais 2005",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rk_vFmM3nSZ1u0YaA?e=W7rfpN",
+        "anais": 14
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 55,
+    "fields": {
+        "criado_em": "2019-08-29T12:53:40.447Z",
+        "modificado_em": "2019-08-29T12:53:40.447Z",
+        "nome": "Anais 2004",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rk-DBDJD1Rqb-Nm1g?e=dKPNwJ",
+        "anais": 15
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 56,
+    "fields": {
+        "criado_em": "2019-08-29T12:54:09.343Z",
+        "modificado_em": "2019-08-29T12:54:09.343Z",
+        "nome": "Anais 2003",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rk9wlhiucZ8MWEhSg?e=c85KN3",
+        "anais": 16
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 57,
+    "fields": {
+        "criado_em": "2019-08-29T12:54:46.010Z",
+        "modificado_em": "2019-08-29T12:54:46.010Z",
+        "nome": "Anais 2002",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971rk8dHSuVeJZAXN6bQ?e=CXT8F0",
+        "anais": 17
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 58,
+    "fields": {
+        "criado_em": "2019-08-29T13:02:07.976Z",
+        "modificado_em": "2019-08-29T13:02:07.978Z",
+        "nome": "Anais 2017 Completos",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971sAJmk2tt0FGfrfbYQ?e=6xP6ac",
+        "anais": 18
+    }
+},
+{
+    "model": "core.anaisarquivos",
+    "pk": 59,
+    "fields": {
+        "criado_em": "2019-08-29T13:02:07.985Z",
+        "modificado_em": "2019-08-29T13:02:07.986Z",
+        "nome": "Anais 2017 Resumos",
+        "arquivo": "",
+        "arquivo_hospedado": "https://1drv.ms/u/s!AmvVbAcFSr971sAKMZTgbiM5QxJFoA?e=wddd5L",
+        "anais": 18
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 1,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 1,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 1,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 1,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 2,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 2,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 2,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 2,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 3,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 3,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 3,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 3,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 4,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 4,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 4,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 4,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add Usu\u00e1rio",
+        "content_type": 5,
+        "codename": "add_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change Usu\u00e1rio",
+        "content_type": 5,
+        "codename": "change_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete Usu\u00e1rio",
+        "content_type": 5,
+        "codename": "delete_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view Usu\u00e1rio",
+        "content_type": 5,
+        "codename": "view_usuario"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add Contato",
+        "content_type": 6,
+        "codename": "add_contato"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change Contato",
+        "content_type": 6,
+        "codename": "change_contato"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete Contato",
+        "content_type": 6,
+        "codename": "delete_contato"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view Contato",
+        "content_type": 6,
+        "codename": "view_contato"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add Data",
+        "content_type": 7,
+        "codename": "add_datas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change Data",
+        "content_type": 7,
+        "codename": "change_datas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete Data",
+        "content_type": 7,
+        "codename": "delete_datas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view Data",
+        "content_type": 7,
+        "codename": "view_datas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Formato",
+        "content_type": 8,
+        "codename": "add_formatos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Formato",
+        "content_type": 8,
+        "codename": "change_formatos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Formato",
+        "content_type": 8,
+        "codename": "delete_formatos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Formato",
+        "content_type": 8,
+        "codename": "view_formatos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add Arquivo",
+        "content_type": 9,
+        "codename": "add_formatosarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change Arquivo",
+        "content_type": 9,
+        "codename": "change_formatosarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete Arquivo",
+        "content_type": 9,
+        "codename": "delete_formatosarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view Arquivo",
+        "content_type": 9,
+        "codename": "view_formatosarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add Local",
+        "content_type": 10,
+        "codename": "add_local"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change Local",
+        "content_type": 10,
+        "codename": "change_local"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete Local",
+        "content_type": 10,
+        "codename": "delete_local"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view Local",
+        "content_type": 10,
+        "codename": "view_local"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add Midia Social",
+        "content_type": 11,
+        "codename": "add_midiassociais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change Midia Social",
+        "content_type": 11,
+        "codename": "change_midiassociais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete Midia Social",
+        "content_type": 11,
+        "codename": "delete_midiassociais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view Midia Social",
+        "content_type": 11,
+        "codename": "view_midiassociais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add Not\u00edcia",
+        "content_type": 12,
+        "codename": "add_noticias"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change Not\u00edcia",
+        "content_type": 12,
+        "codename": "change_noticias"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete Not\u00edcia",
+        "content_type": 12,
+        "codename": "delete_noticias"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view Not\u00edcia",
+        "content_type": 12,
+        "codename": "view_noticias"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add Organizador",
+        "content_type": 13,
+        "codename": "add_organizadores"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change Organizador",
+        "content_type": 13,
+        "codename": "change_organizadores"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete Organizador",
+        "content_type": 13,
+        "codename": "delete_organizadores"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view Organizador",
+        "content_type": 13,
+        "codename": "view_organizadores"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add Pagina",
+        "content_type": 14,
+        "codename": "add_paginas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change Pagina",
+        "content_type": 14,
+        "codename": "change_paginas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete Pagina",
+        "content_type": 14,
+        "codename": "delete_paginas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view Pagina",
+        "content_type": 14,
+        "codename": "view_paginas"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add Palestrante",
+        "content_type": 15,
+        "codename": "add_palestrantes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change Palestrante",
+        "content_type": 15,
+        "codename": "change_palestrantes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete Palestrante",
+        "content_type": 15,
+        "codename": "delete_palestrantes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view Palestrante",
+        "content_type": 15,
+        "codename": "view_palestrantes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add Palestras",
+        "content_type": 16,
+        "codename": "add_palestras"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change Palestras",
+        "content_type": 16,
+        "codename": "change_palestras"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete Palestras",
+        "content_type": 16,
+        "codename": "delete_palestras"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view Palestras",
+        "content_type": 16,
+        "codename": "view_palestras"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add Arquivo",
+        "content_type": 17,
+        "codename": "add_palestrasarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change Arquivo",
+        "content_type": 17,
+        "codename": "change_palestrasarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete Arquivo",
+        "content_type": 17,
+        "codename": "delete_palestrasarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view Arquivo",
+        "content_type": 17,
+        "codename": "view_palestrasarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add Patrocinador",
+        "content_type": 18,
+        "codename": "add_patrocinador"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change Patrocinador",
+        "content_type": 18,
+        "codename": "change_patrocinador"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete Patrocinador",
+        "content_type": 18,
+        "codename": "delete_patrocinador"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view Patrocinador",
+        "content_type": 18,
+        "codename": "view_patrocinador"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+        "name": "Can add Sirc",
+        "content_type": 19,
+        "codename": "add_sirc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+        "name": "Can change Sirc",
+        "content_type": 19,
+        "codename": "change_sirc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+        "name": "Can delete Sirc",
+        "content_type": 19,
+        "codename": "delete_sirc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+        "name": "Can view Sirc",
+        "content_type": 19,
+        "codename": "view_sirc"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 20,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 20,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 20,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 20,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+        "name": "Can add Anais",
+        "content_type": 21,
+        "codename": "add_anais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+        "name": "Can change Anais",
+        "content_type": 21,
+        "codename": "change_anais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+        "name": "Can delete Anais",
+        "content_type": 21,
+        "codename": "delete_anais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+        "name": "Can view Anais",
+        "content_type": 21,
+        "codename": "view_anais"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+        "name": "Can add Anais Arquivos",
+        "content_type": 22,
+        "codename": "add_anaisarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+        "name": "Can change Anais Arquivos",
+        "content_type": 22,
+        "codename": "change_anaisarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+        "name": "Can delete Anais Arquivos",
+        "content_type": 22,
+        "codename": "delete_anaisarquivos"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+        "name": "Can view Anais Arquivos",
+        "content_type": 22,
+        "codename": "view_anaisarquivos"
+    }
+},
+{
+    "model": "core.usuario",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$alXq5t6C7nsc$mi6w+SsmUnwIYrpXvO1wIGpfHRENcLcz6GyHSe5kbYQ=",
+        "last_login": "2019-09-24T00:10:45.320Z",
+        "is_superuser": true,
+        "criado_em": "2019-07-21T00:27:58.244Z",
+        "modificado_em": "2019-07-21T00:28:11.928Z",
+        "email": "fabriciotonettolondero@gmail.com",
+        "first_name": "Fabr\u00edcio",
+        "last_name": "Tonetto Londero",
+        "is_active": true,
+        "is_admin": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.usuario",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$7oeJugKjEOpv$OFoWSsOGrFZvV6jWYwdRwB/pZcybT2QTHecNFJfdL5s=",
+        "last_login": "2019-10-08T16:27:55.368Z",
+        "is_superuser": true,
+        "criado_em": "2019-07-21T14:35:05.843Z",
+        "modificado_em": "2019-07-21T14:35:16.197Z",
+        "email": "jgmartynss@gmail.com",
+        "first_name": "Jo\u00e3o",
+        "last_name": "Martins",
+        "is_active": true,
+        "is_admin": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "core.usuario",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$4IInLf5iAJXU$01ZkYDlbV6VefCORDYUH5OzxCg0qjafJWxvDqYVTHzU=",
+        "last_login": "2019-08-16T00:20:50.324Z",
+        "is_superuser": true,
+        "criado_em": "2019-08-16T00:12:20.881Z",
+        "modificado_em": "2019-08-16T00:20:26.181Z",
+        "email": "gus.cant@gmail.com",
+        "first_name": "Gustavo",
+        "last_name": "Cantarelli",
+        "is_active": true,
+        "is_admin": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2019-07-22T00:33:14.817Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Fabr\u00edcio Tonetto Londero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2019-07-22T00:33:25.599Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Fabr\u00edcio Tonetto Londero",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2019-07-22T00:33:40.197Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Alessandro Andr\u00e9 Mainardi de Oliveira",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2019-07-22T00:33:49.144Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "3",
+        "object_repr": "Alexandre de Oliveira Zamberlan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2019-07-22T00:33:57.957Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "4",
+        "object_repr": "Ana Paula Canal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2019-07-22T00:34:02.918Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "5",
+        "object_repr": "Fernando Sarturi Prass",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2019-07-22T00:34:08.793Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "6",
+        "object_repr": "Guilherme Chagas Kurtz",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2019-07-22T00:34:14.640Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "7",
+        "object_repr": "Mirkos Ortiz Martins",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2019-07-22T00:34:20.880Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "8",
+        "object_repr": "Reiner Franthesco Perozzo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2019-07-22T00:34:26.008Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "9",
+        "object_repr": "Ricardo Fr\u00f6hlich da Silva",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2019-07-22T00:34:31.477Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "10",
+        "object_repr": "Sylvio Andr\u00e9 Garcia Vieira",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2019-07-22T00:36:20.903Z",
+        "user": 2,
+        "content_type": 13,
+        "object_id": "11",
+        "object_repr": "C\u00e1ssio Fernandes Lemos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2019-07-22T01:20:51.291Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2019-07-23T22:20:20.584Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Submiss\u00e3o de Trabalhos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2019-07-24T21:26:56.874Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "1",
+        "object_repr": "lion@king.com - Lion King",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2019-07-26T16:24:20.646Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "TRABALHOS COMPLETOS",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (1)\"}}, {\"added\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (2)\"}}, {\"added\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (3)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2019-07-26T16:25:41.524Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "P\u00d4STER",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Arquivo\", \"object\": \"P\\u00d4STER - (5)\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2019-07-26T16:26:52.014Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2019-07-26T16:27:23.608Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2019-07-26T16:29:46.354Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2019-07-26T16:33:34.218Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2019-07-26T17:05:23.697Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Olimpiadas",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2019-07-26T19:34:13.313Z",
+        "user": 2,
+        "content_type": 19,
+        "object_id": "1",
+        "object_repr": "15\u00b0 Edi\u00e7\u00e3o",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2019-07-26T22:05:04.504Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2019-08-01T20:29:40.325Z",
+        "user": 2,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2019-08-02T15:38:38.310Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2019-08-02T15:43:03.992Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2019-08-02T16:03:50.094Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2019-08-02T16:04:47.857Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2019-08-02T16:05:11.746Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2019-08-02T16:05:27.003Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Inscri\u00e7\u00f5es",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2019-08-04T14:57:26.275Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Jo\u00e3o Gilberto Martins Gomes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/jgmartinsss\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"http://github.com/jgmartinss/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2019-08-04T14:59:41.568Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Laborat\u00f3rio de Inform\u00e1tica",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2019-08-04T14:59:48.169Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Django - O framework web para perfeccionistas com prazos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2019-08-07T21:56:31.196Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "fabriciotonettolondero@gmail.com - teste site",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2019-08-08T21:58:14.058Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/luarigoni\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2019-08-08T21:59:45.893Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Cristiano Flores dos Santos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/profile.php?id=100000220793756\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2019-08-08T22:01:17.223Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Tiago Rios da Rocha",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/tiagoriosrocha\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2019-08-08T22:04:22.196Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Sal\u00e3o Azul",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2019-08-08T22:05:02.939Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Desenvolvimento e Inova\u00e7\u00e3o para a diversidade funcional: desafios e oportunidades para os profissionais de Tecnologia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2019-08-08T22:09:11.087Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "O Framework PHP L\u00e1ravel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2019-08-08T22:11:53.875Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Nuvens de pontos 3D",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2019-08-12T17:19:21.851Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "5",
+        "object_repr": "k.ar.a.l.ap.o.c.h.k.a.13@gmail.com - Kara13ryt",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2019-08-12T21:27:19.375Z",
+        "user": 3,
+        "content_type": 5,
+        "object_id": "1",
+        "object_repr": "admin@email.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2019-08-15T23:59:58.162Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2015 - SIRC2015\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2019-08-16T00:06:22.227Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2013 - SIRC2013\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2019-08-16T00:08:17.615Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2019-08-16T00:12:20.887Z",
+        "user": 2,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "gus.cant@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2019-08-16T00:17:54.007Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "SIRC - 2012",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2012 - SIRC2012\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2019-08-16T00:18:32.310Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2019-08-16T00:18:49.923Z",
+        "user": 2,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2019-08-16T00:20:26.183Z",
+        "user": 2,
+        "content_type": 5,
+        "object_id": "4",
+        "object_repr": "gus.cant@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"is_superuser\", \"is_admin\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2019-08-16T00:23:57.030Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - Customizacao Automatizada de um Jogo de Iniciacao a Programacao para Sessoes Interativas em Estandes de Eventos\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2019-08-16T00:36:17.923Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - JMP Uma Solucao para Definicao de Topologias Mininet\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2019-08-16T00:36:51.906Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SIMPsOn Interface Squid para Gerenciamento de Perfis\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2019-08-16T00:39:25.050Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - Sistema de geracao automatica de cotacao de precos para empresa que presta servico de bar\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 93,
+    "fields": {
+        "action_time": "2019-08-16T00:40:09.752Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - Utilizacao de Classificadores Bayesianos para Predicao de Afinidade Entre Personagens Literarios\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 94,
+    "fields": {
+        "action_time": "2019-08-16T00:41:12.042Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - ALIMENTADOR AUTOM\\u00c1TICO PARA ANIMAIS DE ESTIMA\\u00c7\\u00c3O ATRAV\\u00c9S DO CONTROLE VIA RFID\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - APLICA\\u00c7\\u00c3O DE MACHINE LEARNING EM JOGOS DE TABULEIRO USANDO A BIBLIOTECA KERAS\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 95,
+    "fields": {
+        "action_time": "2019-08-16T00:43:29.108Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - BUSCA DE CAMINHOS OTIMIZADOS UTILIZANDO PROLOG E JAVA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - CALEND\\u00c1RIO COOPERATIVO GEN\\u00c9RICO PARA INCLUS\\u00c3O EM GROUPWARES\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - CATEGORIZANDO TRABALHOS CIENT\\u00cdFICOS POR ALGORITMO ZIPF\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 96,
+    "fields": {
+        "action_time": "2019-08-16T00:44:48.438Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - CONTADOR DE MOEDAS UTILIZANDO A PLATAFORMA ARDUINO\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - CONTROLE DO CONFORTO T\\u00c9RMICO EM EDIFICA\\u00c7\\u00d5ES ATRAV\\u00c9S DA AUTOMA\\u00c7\\u00c3O COM RASPBERRY PI\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE APLICA\\u00c7\\u00c3O M\\u00d3VEL COM REALIDADE VIRTUAL PARA PRATICA DE CICLISMO\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE CONTROLE REMOTO CONTROLADO ATRAV\\u00c9S DE BLUETOOTH PARA ACIONAMENTO DE VE\\u00cdCULO\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 97,
+    "fields": {
+        "action_time": "2019-08-16T00:46:30.247Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE SOFTWARE PARA RASTREAMENTO DE AVES\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE UM MIDDLEWARE PARA TRATAMENTO DE DADOS COLETADOS POR SENSORES DE ELETROENCEFALOGRAMA PESSOAIS\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE UM M\\u00d3DULO PARA DESCOBERTA DE PADR\\u00d5ES EM EXPERIMENTOS COM NANOPART\\u00cdCULAS POLIM\\u00c9RICAS NO MASPN\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE UM SOFTWARE DE CONTROLE DAS ATIVIDADES DE PROPRIEDADES AGR\\u00cdCOLAS\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 98,
+    "fields": {
+        "action_time": "2019-08-16T00:50:12.705Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DESENVOLVIMENTO DE UMA APLICA\\u00c7\\u00c3O ANDROID PARA AVALIA\\u00c7\\u00c3O DIMENSIONAL CORPORAL E REQUERIMENTO ENERG\\u00c9TICO EM PACIENTES HOSPITALIZADOS\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DISPOSITIVO DE VERIFICA\\u00c7\\u00c3O DE QUEDAS EM IDOSOS BASEADO EM ACELEROMETRIA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DISPOSITIVO PARA ESTIMAR O DEGRADAMENTO DO SOLO CAUSADO PELA EROS\\u00c3O\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - DISTRIBUI\\u00c7\\u00c3O DE FREQU\\u00caNCIAS COM C#\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 99,
+    "fields": {
+        "action_time": "2019-08-16T00:51:52.996Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - ENSINO DA L\\u00d3GICA DE PROGRAMA\\u00c7\\u00c3O PARA CRIAN\\u00c7AS\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - ESTRUTURA BIDIMENSIONAL PARA OTIMIZA\\u00c7\\u00c3O DO PROCESSO DE AN\\u00c1LISE DO ENSAIO COMETA COM UTILIZA\\u00c7\\u00c3O DO ARDU\\u00cdNO\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - FERRAMENTA DE AN\\u00c1LISE DE FALHAS EM SEQU\\u00caNCIAS DE BASES NITROGENADAS E SUGEST\\u00c3O DE CORRE\\u00c7\\u00c3O\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - O USO DO SISTEMA COGNITIVO IBM WATSON APLICADO A CONHECIMENTOS LITER\\u00c1RIOS EM BIBLIOTECAS UNIVERSIT\\u00c1RIAS\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - PORTAL DE FERRAMENTAS PARA ENSINO DE COMPUTA\\u00c7\\u00c3O NA EDUCA\\u00c7\\u00c3O B\\u00c1SICA\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 100,
+    "fields": {
+        "action_time": "2019-08-16T00:53:55.756Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - PROPOSTA DE FERRAMENTA DE INTEGRA\\u00c7\\u00c3O ENTRE SISTEMA ERP E M\\u00c1QUINAS CNC PARA M\\u00c9DIAS EMPRESAS\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - PROT\\u00d3TIPO DE SISTEMA SEM FIOS PARA GER\\u00caNCIA DE FILAS DE ESPERA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - PROT\\u00d3TIPO PARA IDENTIFICA\\u00c7\\u00c3O PECU\\u00c1RIA VIA RFID\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - PROT\\u00d3TIPO PARA MEDI\\u00c7\\u00c3O DA TURBIDEZ DA \\u00c1GUA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SHADOW MAPPING\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SIMULA\\u00c7\\u00c3O METEOROL\\u00d3GICA NO RIO GRANDE DO SUL COM USO DE UM AUT\\u00d4MATO CELULAR\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 101,
+    "fields": {
+        "action_time": "2019-08-16T00:57:09.504Z",
+        "user": 4,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA DE TELEMETRIA PARA VEICULOS AUTONOMOS CONTROLADOS POR BLUETOOTH\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA ESPECIALISTA PARA DIAGN\\u00d3STICO DE HARDWARE DE COMPUTADORES USANDO ONTOLOGIA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA DE ALIMENTA\\u00c7\\u00c3O PARA ANIMAIS DOM\\u00c9STICOS MICROCONTROLADO POR ARDU\\u00cdNO\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA DE DESCOBERTA DIN\\u00c2MICA E CONFIGURA\\u00c7\\u00c3O REMOTA DE DISPOSITIVOS MICROCONTROLADOS VOLTADOS PARA IOT\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA PARA CONTROLE RESIDENCIAL, USANDO A FERRAMENTA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA PARA INTEGRA\\u00c7\\u00c3O ENTRE BAST\\u00c3O RFID E BALAN\\u00c7A DIGITAL EM PECU\\u00c1RIA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SISTEMA SEM FIO PARA GER\\u00caNCIA DE FILAS DE ESPERA\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - SOFTWARE PARA AVALIA\\u00c7\\u00c3O DAS BOAS PR\\u00c1TICAS NUTRICIONAIS, SUSTENT\\u00c1VEIS E DE MANIPULA\\u00c7\\u00c3O NA ALIMENTA\\u00c7\\u00c3O ESCOLAR\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 102,
+    "fields": {
+        "action_time": "2019-08-27T15:43:34.049Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 103,
+    "fields": {
+        "action_time": "2019-08-27T15:45:26.278Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 104,
+    "fields": {
+        "action_time": "2019-08-27T16:05:48.237Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 105,
+    "fields": {
+        "action_time": "2019-08-27T16:10:00.692Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 106,
+    "fields": {
+        "action_time": "2019-08-27T16:14:11.848Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 107,
+    "fields": {
+        "action_time": "2019-08-27T18:02:00.213Z",
+        "user": 3,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "TRABALHOS COMPLETOS",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (1)\", \"fields\": [\"arquivo\", \"arquivo_hospedado\"]}}, {\"changed\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (2)\", \"fields\": [\"arquivo\", \"arquivo_hospedado\"]}}, {\"changed\": {\"name\": \"Arquivo\", \"object\": \"TRABALHOS COMPLETOS - (3)\", \"fields\": [\"arquivo\", \"arquivo_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 108,
+    "fields": {
+        "action_time": "2019-08-27T18:02:55.964Z",
+        "user": 3,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "P\u00d4STER",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"Arquivo\", \"object\": \"P\\u00d4STER - (5)\", \"fields\": [\"arquivo\", \"arquivo_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 109,
+    "fields": {
+        "action_time": "2019-08-28T14:26:43.753Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Jo\u00e3o Gilberto Martins Gomes",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\", \"avatar_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 110,
+    "fields": {
+        "action_time": "2019-08-28T14:32:48.145Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "Rodrigo Goulart",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/rodrigo.goulart.feevale\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 111,
+    "fields": {
+        "action_time": "2019-08-28T14:35:02.212Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "6",
+        "object_repr": "Nielsen Rechia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://twitter.com/NielsenRechia\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://nielsenrechia.netlify.com/\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"http://lattes.cnpq.br/5547209032732533\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.linkedin.com/in/nielsenrechia/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 112,
+    "fields": {
+        "action_time": "2019-08-28T14:35:12.942Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Cristiano Flores dos Santos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 113,
+    "fields": {
+        "action_time": "2019-08-28T14:36:08.964Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 114,
+    "fields": {
+        "action_time": "2019-08-28T14:37:01.224Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Tiago Rios da Rocha",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 115,
+    "fields": {
+        "action_time": "2019-08-28T14:38:16.684Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "5",
+        "object_repr": "D2A: Data-driven Agibank. A cultura de uma empresa orientada a dados.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 116,
+    "fields": {
+        "action_time": "2019-08-28T14:42:10.134Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "PLN como parte de sistemas de comportamento inteligente",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 117,
+    "fields": {
+        "action_time": "2019-08-29T11:37:13.289Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "4",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 118,
+    "fields": {
+        "action_time": "2019-08-29T11:37:13.295Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "3",
+        "object_repr": "SIRC - 2012",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 119,
+    "fields": {
+        "action_time": "2019-08-29T11:37:13.305Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "2",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 120,
+    "fields": {
+        "action_time": "2019-08-29T11:37:13.318Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "1",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 121,
+    "fields": {
+        "action_time": "2019-08-29T11:45:34.175Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "5",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2015 - Anais 2015\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 122,
+    "fields": {
+        "action_time": "2019-08-29T11:47:53.754Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "6",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2013 - Anais 2013\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 123,
+    "fields": {
+        "action_time": "2019-08-29T11:54:20.535Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "6",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 124,
+    "fields": {
+        "action_time": "2019-08-29T12:44:48.097Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "5",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 125,
+    "fields": {
+        "action_time": "2019-08-29T12:45:13.645Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "5",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 126,
+    "fields": {
+        "action_time": "2019-08-29T12:46:46.266Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "7",
+        "object_repr": "SIRC - 2012",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2012 - Anais 2012\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 127,
+    "fields": {
+        "action_time": "2019-08-29T12:48:46.509Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "8",
+        "object_repr": "SIRC - 2011",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2011 - Anais 2011\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 128,
+    "fields": {
+        "action_time": "2019-08-29T12:49:27.828Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "9",
+        "object_repr": "SIRC - 2010",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2010 - Anais 2010\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 129,
+    "fields": {
+        "action_time": "2019-08-29T12:50:05.385Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "10",
+        "object_repr": "SIRC - 2009",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2009 - Anais 2009\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 130,
+    "fields": {
+        "action_time": "2019-08-29T12:50:55.529Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "11",
+        "object_repr": "SIRC - 2008",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2008 - Anais 2008\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 131,
+    "fields": {
+        "action_time": "2019-08-29T12:51:31.866Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "12",
+        "object_repr": "SIRC - 2007",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2007 - Anais 2007\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 132,
+    "fields": {
+        "action_time": "2019-08-29T12:52:09.169Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "13",
+        "object_repr": "SIRC - 2006",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2006 - Anais 2006\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 133,
+    "fields": {
+        "action_time": "2019-08-29T12:52:53.186Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "14",
+        "object_repr": "SIRC - 2005",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2005 - Anais 2005\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 134,
+    "fields": {
+        "action_time": "2019-08-29T12:53:40.449Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "15",
+        "object_repr": "SIRC - 2004",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2004 - Anais 2004\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 135,
+    "fields": {
+        "action_time": "2019-08-29T12:54:09.347Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "16",
+        "object_repr": "SIRC - 2003",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2003 - Anais 2003\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 136,
+    "fields": {
+        "action_time": "2019-08-29T12:54:46.012Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "17",
+        "object_repr": "SIRC - 2002",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2002 - Anais 2002\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 137,
+    "fields": {
+        "action_time": "2019-08-29T13:02:08.001Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "18",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - Anais 2017 Completos\"}}, {\"added\": {\"name\": \"Anais Arquivos\", \"object\": \"SIRC - 2017 - Anais 2017 Resumos\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 138,
+    "fields": {
+        "action_time": "2019-08-30T22:06:11.417Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 139,
+    "fields": {
+        "action_time": "2019-08-30T22:06:44.242Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 140,
+    "fields": {
+        "action_time": "2019-08-30T22:06:48.533Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 141,
+    "fields": {
+        "action_time": "2019-08-30T22:08:58.750Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 142,
+    "fields": {
+        "action_time": "2019-08-30T22:09:24.208Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Luiza Beck Arigoni",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 143,
+    "fields": {
+        "action_time": "2019-08-30T22:10:31.310Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "3",
+        "object_repr": "Cristiano Flores dos Santos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 144,
+    "fields": {
+        "action_time": "2019-08-30T22:10:56.171Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "6",
+        "object_repr": "Nielsen Rechia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 145,
+    "fields": {
+        "action_time": "2019-08-30T22:11:54.510Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "5",
+        "object_repr": "Rodrigo Goulart",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 146,
+    "fields": {
+        "action_time": "2019-08-30T22:13:29.166Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "4",
+        "object_repr": "Tiago Rios da Rocha",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 147,
+    "fields": {
+        "action_time": "2019-09-03T19:07:17.550Z",
+        "user": 3,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "Como Submeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 148,
+    "fields": {
+        "action_time": "2019-09-04T14:43:08.787Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "7",
+        "object_repr": "Claudio Rocha Lobato",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/ClaudioRochaLobato\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 149,
+    "fields": {
+        "action_time": "2019-09-04T14:44:30.406Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "8",
+        "object_repr": "Lucas Fagundes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/olucasfagundes\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 150,
+    "fields": {
+        "action_time": "2019-09-04T14:45:17.617Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "9",
+        "object_repr": "Nilson Silva Vieira",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/nilson.vieira.9\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 151,
+    "fields": {
+        "action_time": "2019-09-04T14:45:35.826Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "9",
+        "object_repr": "Nilson Silva Vieira",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"avatar\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 152,
+    "fields": {
+        "action_time": "2019-09-04T14:46:25.983Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "7",
+        "object_repr": "Arquitetura de Microservices - Case de implementa\u00e7\u00e3o da stack Netflix OSS para orquestra\u00e7\u00e3o de microsservices e a evolu\u00e7\u00e3o dessa solu\u00e7\u00e3o para Istio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 153,
+    "fields": {
+        "action_time": "2019-09-04T14:47:02.922Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "8",
+        "object_repr": "AVMB, uma empresa Santamariense",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 154,
+    "fields": {
+        "action_time": "2019-09-04T15:44:49.765Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "10",
+        "object_repr": "Cau\u00e3 Ferreira da Silva",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/caua.fs\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://br.linkedin.com/in/cauafs\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.behance.net/cauafs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 155,
+    "fields": {
+        "action_time": "2019-09-04T15:46:06.531Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "9",
+        "object_repr": "Precisamos falar sobre: Mercado de jogos no Brasil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 156,
+    "fields": {
+        "action_time": "2019-09-12T16:37:34.937Z",
+        "user": 2,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "AVMB",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 157,
+    "fields": {
+        "action_time": "2019-09-12T21:17:53.806Z",
+        "user": 2,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "AVMB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 158,
+    "fields": {
+        "action_time": "2019-09-13T00:30:39.750Z",
+        "user": 2,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "AVMB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"logo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 159,
+    "fields": {
+        "action_time": "2019-09-13T00:33:31.021Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "11",
+        "object_repr": "Alexandre de Oliveira Zamberlan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/alexandre.d.zamberlan\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://github.com/alexandrezamberlan\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://twitter.com/alexzamberlan\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 160,
+    "fields": {
+        "action_time": "2019-09-13T00:35:35.538Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "12",
+        "object_repr": "Douglas Tybusch",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.facebook.com/douglas.tybusch?ref=br_rs\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 161,
+    "fields": {
+        "action_time": "2019-09-13T00:45:05.424Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Latex no Overleaf: escrevendo e apresentando com ferramentas de qualidade.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 162,
+    "fields": {
+        "action_time": "2019-09-13T00:50:56.363Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "TITULO -  Flutter - O Novo Framework da Google para desenvolvimento de Apps Mobile",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 163,
+    "fields": {
+        "action_time": "2019-09-13T11:24:26.836Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "11",
+        "object_repr": "Flutter - O Novo Framework da Google para desenvolvimento de Apps Mobile",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"titulo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 164,
+    "fields": {
+        "action_time": "2019-09-13T18:47:26.657Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "18",
+        "object_repr": "SIRC - 2017",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 165,
+    "fields": {
+        "action_time": "2019-09-13T18:47:39.816Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "17",
+        "object_repr": "SIRC - 2002",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 166,
+    "fields": {
+        "action_time": "2019-09-13T18:47:56.252Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "16",
+        "object_repr": "SIRC - 2003",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 167,
+    "fields": {
+        "action_time": "2019-09-13T18:48:10.210Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "15",
+        "object_repr": "SIRC - 2004",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 168,
+    "fields": {
+        "action_time": "2019-09-13T18:48:20.692Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "14",
+        "object_repr": "SIRC - 2005",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 169,
+    "fields": {
+        "action_time": "2019-09-13T18:48:36.508Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "13",
+        "object_repr": "SIRC - 2006",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 170,
+    "fields": {
+        "action_time": "2019-09-13T18:48:47.820Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "12",
+        "object_repr": "SIRC - 2007",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 171,
+    "fields": {
+        "action_time": "2019-09-13T18:48:59.052Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "11",
+        "object_repr": "SIRC - 2008",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 172,
+    "fields": {
+        "action_time": "2019-09-13T18:49:22.584Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "10",
+        "object_repr": "SIRC - 2009",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 173,
+    "fields": {
+        "action_time": "2019-09-13T18:49:38.299Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "9",
+        "object_repr": "SIRC - 2010",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 174,
+    "fields": {
+        "action_time": "2019-09-13T18:49:50.970Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "8",
+        "object_repr": "SIRC - 2011",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 175,
+    "fields": {
+        "action_time": "2019-09-13T18:49:59.794Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "7",
+        "object_repr": "SIRC - 2012",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 176,
+    "fields": {
+        "action_time": "2019-09-13T18:50:13.289Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "6",
+        "object_repr": "SIRC - 2013",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 177,
+    "fields": {
+        "action_time": "2019-09-13T18:50:22.957Z",
+        "user": 3,
+        "content_type": 21,
+        "object_id": "5",
+        "object_repr": "SIRC - 2015",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"thumbnail\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 178,
+    "fields": {
+        "action_time": "2019-09-13T20:10:08.004Z",
+        "user": 3,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "AVMB",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"logo_hospedado\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 179,
+    "fields": {
+        "action_time": "2019-09-13T20:47:56.581Z",
+        "user": 3,
+        "content_type": 15,
+        "object_id": "11",
+        "object_repr": "Alexandre de O. Zamberlan",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"nome\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 180,
+    "fields": {
+        "action_time": "2019-09-13T20:49:54.161Z",
+        "user": 3,
+        "content_type": 16,
+        "object_id": "10",
+        "object_repr": "Latex no Overleaf: escrevendo e apresentando com ferramentas de qualidade",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"titulo\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 181,
+    "fields": {
+        "action_time": "2019-09-24T00:15:29.821Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Submiss\u00e3o de Trabalhos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"descricao\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 182,
+    "fields": {
+        "action_time": "2019-09-26T14:40:13.311Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "13",
+        "object_repr": "Diego Zuge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://www.linkedin.com/in/diego-spiegelberg-zuge-3569a037/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 183,
+    "fields": {
+        "action_time": "2019-09-26T14:42:11.448Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "14",
+        "object_repr": "Eduardo Reis",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://facebook.com/eduardo.m.reis.3\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://facebook.com/ARTaoCUBO\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 184,
+    "fields": {
+        "action_time": "2019-09-26T14:45:05.669Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "15",
+        "object_repr": "Henrique Leal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://twitter.com/hmleal\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"https://github.com/hmleal\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 185,
+    "fields": {
+        "action_time": "2019-09-26T14:48:31.206Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "16",
+        "object_repr": "Marcelo Borges Recchi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"http://www.facebook.com/marcelo.recchi\"}}, {\"added\": {\"name\": \"Midia Social\", \"object\": \"http://br.linkedin.com/in/marcelorecchi\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 186,
+    "fields": {
+        "action_time": "2019-09-26T16:37:20.776Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "17",
+        "object_repr": "Thiago Borba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 187,
+    "fields": {
+        "action_time": "2019-09-26T16:38:14.468Z",
+        "user": 2,
+        "content_type": 15,
+        "object_id": "18",
+        "object_repr": "Roger Cristiano Schardong",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 188,
+    "fields": {
+        "action_time": "2019-09-26T16:39:45.082Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "12",
+        "object_repr": "Introdu\u00e7\u00e3o a Rigging no 3ds MAX",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 189,
+    "fields": {
+        "action_time": "2019-09-26T16:40:52.099Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Como a faculdade me instrumentalizou para o mercado de trabalho",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 190,
+    "fields": {
+        "action_time": "2019-09-26T16:42:01.648Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "14",
+        "object_repr": "Formas de apresentar meu jogo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 191,
+    "fields": {
+        "action_time": "2019-09-26T16:43:23.462Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "15",
+        "object_repr": "Criando uma aplica\u00e7\u00e3o MVC em .Net Core + EF + Mysql no Linux com o auxilio de containers Docker",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 192,
+    "fields": {
+        "action_time": "2019-09-26T16:49:01.752Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "16",
+        "object_repr": "Metodologia \u00c1gil al\u00e9m da teoria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 193,
+    "fields": {
+        "action_time": "2019-09-26T16:49:41.897Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "17",
+        "object_repr": "BPM aplicado ao desenvolvimento de softwares",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 194,
+    "fields": {
+        "action_time": "2019-09-26T16:50:26.397Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "6",
+        "object_repr": "PLN como parte de sistemas de comportamento inteligente",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"hora\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 195,
+    "fields": {
+        "action_time": "2019-09-26T16:51:41.333Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Desenvolvimento e Inova\u00e7\u00e3o para a diversidade funcional: desafios e oportunidades para os profissionais de Tecnologia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"hora\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 196,
+    "fields": {
+        "action_time": "2019-09-26T16:52:07.724Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "4",
+        "object_repr": "Nuvens de pontos 3D",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"hora\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 197,
+    "fields": {
+        "action_time": "2019-09-26T16:52:23.029Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "13",
+        "object_repr": "Como a faculdade me instrumentalizou para o mercado de trabalho",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"hora\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 198,
+    "fields": {
+        "action_time": "2019-09-26T16:57:51.490Z",
+        "user": 2,
+        "content_type": 16,
+        "object_id": "3",
+        "object_repr": "O Framework PHP L\u00e1ravel",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"hora\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 199,
+    "fields": {
+        "action_time": "2019-09-27T14:51:53.298Z",
+        "user": 3,
+        "content_type": 6,
+        "object_id": "8",
+        "object_repr": "k.a.rala.p.o.c.hk.a.1.3@gmail.com - Kara13ull",
+        "action_flag": 3,
+        "change_message": ""
+    }
+}
+]

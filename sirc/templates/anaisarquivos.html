@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Anais - Arquivos {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section id="contact">
+    <div class="container">
+        {% if anais %}
+            <h2 class="text-center text-uppercase text-secondary mb-0">SIRC - {{anais.edicao}}</h2>
+            <hr> <br /><br />
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    {% if arquivos %}
+                        <i>
+                            <p class="lead">
+                                <h4 class="text-secondary mb-0">Arquivos:</h4> <br>
+                                {% for a in arquivos %}
+                                    {% if a.arquivo_hospedado %}
+                                        <i class="fas fa-angle-right"></i> 
+                                        <a href="{{ a.arquivo_hospedado }}" 
+                                           target="_blank">"{{ a.nome }}"
+                                        </a><br>
+                                    {% else %}
+                                        <i class="fas fa-angle-right"></i> 
+                                        <a href="{{a.arquivo.url}}" download>"{{ a.nome }}"</a><br>
+                                    {% endif %}
+                                {% endfor %}
+                            </p><br>
+                        </i>
+                    {% else %}
+                        <p class="lead">Arquivos da edição não encontrados...</p>
+                    {% endif %}
+                </div>
+            </div>
+        {% else %}
+            <p class="lead">Edição não encontrada...</p>
+        {% endif %}
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

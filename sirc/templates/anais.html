@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Anais {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio">
+	<div class="container">
+		<h2 class="text-center text-uppercase text-secondary mb-0">Anais</h2><br>
+		<hr>
+		<div class="row">
+			{% if anais %}
+				{% for  a in anais %}
+					<div class="col-md-6 col-lg-4">
+						<a class="" href="{% url 'core:anais-detail' a.slug %}" target="_blank">
+							<h5 style="text-align: center;">SIRC {{a.edicao}} </h5>
+							<!-- {% if a.thumbnail %}
+								<img class="img-fluid" style=" padding-top:10px; display: block; margin: auto auto; max-width: 200px; max-height: 190px" 
+									src="{{ a.thumbnail.url }}" 
+									alt="">
+									
+							{% else %}
+								<img class="img-fluid" style=" padding-top:10px; display: block; margin: auto auto; max-width: 200px; max-height: 190px" 
+									src="{{ a.thumbnail_hospedado }}" 
+									alt="">
+							{% endif %} -->
+						</a>
+					</div>
+				{% endfor %}
+			{% else %}
+			<div class="col-md-6 col-lg-12">
+				<p class="lead text-center"><br>
+					<i class="fas fa-exclamation-circle"></i>
+					Edições anteriores não encontadas.
+				</p>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

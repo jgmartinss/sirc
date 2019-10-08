@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Organização {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section id="contact">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Organização</h2><br />
+        <hr><br />
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <p class="lead">
+                    <h5>Coordenação Geral:</h5><hr>
+                    {% if coordenacao_geral %}
+                        {% for cg in coordenacao_geral %}
+                            {{cg.nome}} <br>
+                        {% endfor %}
+                    {% else %}
+                        <i class="fas fa-exclamation-circle"></i> Não definidos.
+                    {% endif %}
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <p class="lead">
+                    <h5>Comissão Organizadora:</h5><hr>
+                    {% if comissao_organizadora %}
+                        {% for co in comissao_organizadora %}
+                            {{co.nome}} <br>
+                        {% endfor %}
+                    {% else %}
+                        <i class="fas fa-exclamation-circle"></i> Não definidos.
+                    {% endif %}
+                </p>
+            </div>
+            <div class="col-md-6 col-lg-4">
+
+                <p class="lead">
+                    <h5>Comissão Avaliadora:</h5><hr>
+                    {% if comissao_avaliadora %}
+                        {% for ca in comissao_avaliadora %}
+                            {{ca.nome}} <br>
+                        {% endfor %}
+                    {% else %}
+                        <i class="fas fa-exclamation-circle"></i> Não definidos.
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

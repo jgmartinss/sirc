@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Incrições {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Realizar Inscrição</h2><br>
+        <hr><br>
+                <p class="lead">
+                    <h3>Valores</h3><br/>
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th scope="col">Categoria</th>
+                          <th scope="col">Valor para NÃO associados à SBC</th>
+                          <th scope="col">Valor para ASSOCIADOS à SBC</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Apresentador de Trabalho</td>
+                          <td>R$ 135,00</td>
+                          <td>R$ 110,00</td>
+                        </tr>
+                        <tr>
+                          <td>Alunos e Profissionais da Universidade Franciscana </td>
+                          <td>R$ 75,00</td>
+                          <td>R$ 60,00</td>
+                        </tr>
+                        <tr>
+                          <td>Alunos e Profissionais Externos</td>
+                          <td>R$ 85,00</td>
+                          <td>R$ 75,00</td>
+                        </tr>
+                        <tr>
+                          <td>Minicurso (Valor adicional para cada minicurso)</td>
+                          <td>R$ 30,00</td>
+                          <td>R$ 30,00</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </p><br/>
+
+            <p class="lead">
+                <h3>Informações Adicionais</h3><br/>
+                <ul><li>Período de inscrições: de 01/08 a 16/10/2019.</li></ul>
+                <ul><li> 
+                    Observação: O prazo de encerramento das inscrições poderá ser antecipado, caso todas as vagas sejam preenchidas.
+                </li></ul>
+                <ul><li> 
+                    As inscrições somente serão realizadas pelo site: http://www.universidadefranciscana.edu.br
+                </li></ul>
+                <ul><li>
+                A inscrição somente será validada mediante a compensação do boleto bancário, com vencimento programado para 02 dias após a realização da inscrição. Caso o participante não efetuar o pagamento da inscrição até a data do vencimento do boleto, a inscrição será cancelada automaticamente e será necessário realizar uma nova inscrição.
+                </li></ul>
+                <ul><li>
+                No momento da inscrição o participante poderá inscrever-se apenas no evento, além de optar por minicursos e oficinas que não possuem conflitos de horários.
+                </li></ul>
+                <ul><li>
+                Os inscritos terão direito a: participar das sessões técnicas de apresentação de trabalhos e palestras; participar da programação social; receber certificado; pasta; crachá e anais do evento (em meio digital).
+                </li></ul>
+                <ul><li>
+                A inscrição na categoria Apresentador de Trabalho dá direito a submissão de até 02 (dois) trabalhos e inclui a participação na programação geral do evento.
+                </li></ul>
+                <ul><li>
+                Ainda, os inscritos podem optar por participar dos minicursos. Para esses, será cobrado o valor adicional de R$ 30,00 na sua inscrição (30 vagas para cada minicurso).
+                </li></ul>
+                <ul><li>
+                Não será permitida a inscrição apenas em minicurso(s) e/ ou oficina(s).
+                </li></ul>
+                <ul><li>
+                Após efetuado o pagamento do boleto, não há possibilidade de inscrever-se em minicurso e/ ou oficina e, também, não serão admitidas alterações na inscrição.
+                </li></ul>
+                <ul><li>
+                Não haverá devolução da taxa de inscrição, nem reserva de vagas ou transferência de inscrição.
+                </li></ul>
+                <ul><li>
+                Para impressão da 2ª via do boleto é necessário acessar o link: “Inscrição > Consultar/Submeter Trabalho”, informe seus dados, clique em “Logar” e, após, em “Imprimir Boleto”.
+                Caso o participante seja sócio da SBC, deverá enviar comprovação para inscricaosirc@ufn.edu.br
+                </li></ul>
+        </p>
+        <div class="container" 
+             style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <div class="row">
+                
+                <iframe style="border:none; width: 740px; height: 750px; display:none;" 
+                        id="iframeInsc" class="iframe" 
+                        src="https://www.ufn.edu.br/eventos/maiseventos/Default.aspx?id=1h70uWlrtVk=">
+                </iframe> 
+                <iframe style="border:none; width: 740px; height: 750px;" 
+                        id="iframeInsc" class="iframe" 
+                        src="https://www.ufn.edu.br/eventos/maiseventos/Login/LoginInscricoes.aspx">
+                </iframe>   
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

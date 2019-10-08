@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Contato {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section id="contact">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contato</h2><br/><hr><br/>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <form method="POST" action="{% url 'core:contato' %}">
+                    {% csrf_token %}
+                    {% if messages %}
+                        <div id="success" class="alert alert-success" role="alert">
+                            {% for message in messages %}
+                                {{ message }}
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            {{ form.nome.label_tag }}
+                            {{form.nome}}
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            {{ form.email.label_tag }}
+                            {{form.email}}
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            {{ form.assunto.label_tag }}
+                            {{form.assunto}}
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                            {{ form.menssagem.label_tag }}
+                            {{form.menssagem}}
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-xl">Enviar</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 ml-auto">
+                <p class="lead">
+                    <strong>Endereço:</strong><br>
+                    Universidade Franciscano – UFN
+                    Rua dos Andradas, 1614, Santa Maria - RS
+                    CEP: 97010-032
+                </p>
+                <p class="lead">
+                    <strong>Telefones:</strong><br>
+                    (55) 3220.1200 - Ramal 1258<br>
+                    (55) 3220.1200 - Ramal 1274<br>
+                    (55) 3220.1238
+                </p>
+                <p class="lead">
+                    <strong>E-mail:</strong><br>sirc@ufn.edu.br
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Formatos de Submissão {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Formatos para Submissão</h2><br><hr><br>
+        <div class="row">
+            {% if formatos %}
+                {% for  f in formatos %}
+                    <div class="col-lg-12 ml-auto">
+                        <p class="lead">
+                            <h5>"{{f.titulo}}"</i></h5>
+                            <p>{{f.descricao}}</p>
+                            {% if f.arquivos %}
+                                <i>Arquivos:
+                                    {% for a in f.arquivos %}
+                                        {% if a.arquivo %}
+                                            {% if a.tipo == 1 %}
+                                                <a href="{{a.arquivo.url}}" download>Latex</a>,
+                                            {% elif a.tipo == 2 %}
+                                                <a href="{{a.arquivo.url}}" download>World:</a>,
+                                            {% elif a.tipo == 3 %}
+                                                <a href="{{a.arquivo.url}}" download>Open Document</a>,
+                                            {% elif a.tipo == 4 %}
+                                                <a href="{{a.arquivo.url}}" download>PDF</a>,
+                                            {% elif a.tipo == 5 %}
+                                                <a href="{{a.arquivo.url}}" download>Power Point</a>,
+                                            {% endif %}               
+                                        {% else %}
+                                            {% if a.tipo == 1 %}
+                                                <a href="{{a.arquivo_hospedado}}" target="_blank" >Latex</a>,
+                                            {% elif a.tipo == 2 %}
+                                                <a href="{{a.arquivo_hospedado}}" target="_blank">World:</a>,
+                                            {% elif a.tipo == 3 %}
+                                                <a href="{{a.arquivo_hospedado}}" target="_blank">Open Document</a>,
+                                            {% elif a.tipo == 4 %}
+                                                <a href="{{a.arquivo_hospedado}}" target="_blank">PDF</a>,
+                                            {% elif a.tipo == 5 %}
+                                                <a href="{{a.arquivo_hospedado}}" target="_blank">Power Point</a>,
+                                            {% endif %}
+                                        {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    <i class="fas fa-exclamation-circle"></i> <small><i>Nenhum arquivo disponível!</i></small>
+                                </i>
+                            {% endif %}
+                        </p><hr>
+                    </div>
+                {% endfor %}
+            <div class="col-md-2 col-md-offset-12">
+                <nav aria-label="Page navigation example">
+                    {% if is_paginated %}
+                        <ul class="pagination">
+                            {% if page_obj.has_previous %}
+                                <li class="page-item">
+                                    <a class="page-link" href="?page={{ page_obj.previous_page_number }}">&laquo;</a>
+                                </li>
+                            {% else %}
+                                <li class="page-link" class="disabled"><span>&laquo;</span></li>
+                            {% endif %}
+                            {% for i in paginator.page_range %}
+                                {% if page_obj.number == i %}
+                                    <li class="page-link" class="active">
+                                        <span>{{ i }} <span class="sr-only">(current)</span></span>
+                                    </li>
+                                {% else %}
+                                    <li><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                                {% endif %}
+                            {% endfor %}
+                            {% if page_obj.has_next %}
+                                <li class="page-item">
+                                    <a class="page-link" href="?page={{ page_obj.next_page_number }}">&raquo;</a>
+                                </li>
+                            {% else %}
+                                <li class="page-link" class="disabled"><span>&raquo;</span></li>
+                            {% endif %}
+                        </ul>
+                    {% endif %}
+                </nav>
+            </div>
+            {% else %}
+                <div class="col-md-6 col-lg-12">
+                    <p class="lead text-center">
+                        <i class="fas fa-exclamation-circle"></i> Nenhum formato disponível!
+                    </p>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}

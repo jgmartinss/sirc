@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block title %} {{ block.super }} - Incrições {% endblock %}
+{% block content %}
+{% include "particles/menu.html" %}
+
+<section class="portfolio" id="portfolio">
+    <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Consultar Inscrição</h2><br>
+        <hr><br>
+        <div class="container" 
+        	 style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;">
+            <div class="row">	
+				<iframe id="iframe-inscricao" width="750px" height="750px" frameborder="0" 
+						src="https://www.ufn.edu.br/eventos/maiseventos/Login/LoginConsultar.aspx">	
+				</iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include "particles/footer.html" %}
+{% endblock content %}
