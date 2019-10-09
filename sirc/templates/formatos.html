@@ -16,7 +16,7 @@
                             <p>{{f.descricao}}</p>
                             {% if f.arquivos %}
                                 <i>Arquivos:
-                                    {% for a in f.arquivos %}
+                                    {% for a in f.arquivos.all %}
                                         {% if a.arquivo %}
                                             {% if a.tipo == 1 %}
                                                 <a href="{{a.arquivo.url}}" download>Latex</a>,
@@ -94,3 +94,4 @@
 
 {% include "particles/footer.html" %}
 {% endblock content %}
+

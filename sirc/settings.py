@@ -5,9 +5,9 @@ import django_heroku
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-SECRET_KEY = os.environ.get("SECRET_KEY")
+SECRET_KEY = "*$gvm@($z*45g1n0-3=-tl7b_yk=_ci#zrib%=37-(8%1@35@o"
 
-DEBUG = os.environ.get('DEBUG', False)
+DEBUG = os.environ.get("DEBUG", False)
 
 ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS")
 
@@ -34,7 +34,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "admin_reorder.middleware.ModelAdminReorder",
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    "whitenoise.middleware.WhiteNoiseMiddleware",
 ]
 
 # admin_reorder SETTINGS
@@ -157,7 +157,7 @@ STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")

@@ -5,4 +5,3 @@ from .admin import SircAdminSite
 
 class SircAdminConfig(AdminConfig):
     default_site = "sirc.admin.SircAdminSite"
-

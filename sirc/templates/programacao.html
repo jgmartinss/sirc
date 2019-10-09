@@ -21,18 +21,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>TERÇA | 22/10</h5>
-                            {% if palestras %}
-                            {% for p in palestras %}
+                            {% if palestras_dia_um %}
+                            {% for p in palestras_dia_um %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if p.dia == 1 %}
                                     <div class="card">
                                         <div class="card__time">{{ p.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ p.get_absolute_url}}"> {{ p.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -45,18 +43,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>QUARTA | 23/10</h5>
-                            {% if palestras %}
-                            {% for p in palestras %}
+                            {% if palestras_dia_dois %}
+                            {% for p in palestras_dia_dois %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if p.dia == 2 %}
                                     <div class="card">
                                         <div class="card__time">{{ p.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ p.get_absolute_url}}"> {{ p.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -69,18 +65,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>QUINTA | 24/10</h5>
-                            {% if palestras %}
-                            {% for p in palestras %}
+                            {% if palestras_dia_tres %}
+                            {% for p in palestras_dia_tres %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if p.dia == 3 %}
                                     <div class="card">
                                         <div class="card__time">{{ p.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ p.get_absolute_url}}"> {{ p.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -103,18 +97,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>TERÇA | 22/10</h5>
-                            {% if minicursos %}
-                            {% for m in minicursos %}
+                            {% if minicursos_dia_um %}
+                            {% for m in minicursos_dia_um %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if m.dia == 1 %}
                                     <div class="card">
                                         <div class="card__time">{{ m.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ m.get_absolute_url}}"> {{ m.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -127,18 +119,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>QUARTA | 23/10</h5>
-                            {% if minicursos %}
-                            {% for m in minicursos %}
+                            {% if minicursos_dia_dois %}
+                            {% for m in minicursos_dia_dois %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if m.dia == 2 %}
                                     <div class="card">
                                         <div class="card__time">{{ m.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ m.get_absolute_url}}"> {{ m.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -151,18 +141,16 @@
                     <div class="column">
                         <div class="card">
                             <h5>QUINTA | 24/10</h5>
-                            {% if minicursos %}
-                            {% for m in minicursos %}
+                            {% if minicursos_dia_tres %}
+                            {% for m in minicursos_dia_tres %}
                             <div class="schedule">
                                 <div class="">
-                                    {% if m.dia == 3 %}
                                     <div class="card">
                                         <div class="card__time">{{ m.hora }}</div>
                                         <div class="card__place">
                                             <a href="{{ m.get_absolute_url}}"> {{ m.titulo_ }}</a>
                                         </div>
                                     </div><br>
-                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}

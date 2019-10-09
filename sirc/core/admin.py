@@ -307,8 +307,8 @@ class AnaisAdmin(admin.ModelAdmin):
             None,
             {
                 "fields": (
-                    ("edicao", "slug",),
-                    "thumbnail", 
+                    ("edicao", "slug"),
+                    "thumbnail",
                     "thumbnail_hospedado",
                     ("criado_em", "modificado_em"),
                 )

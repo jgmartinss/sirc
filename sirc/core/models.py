@@ -77,11 +77,16 @@ class Contato(TimeStampedModel):
 
 
 class Noticias(TimeStampedModel):
-    STATUS = ((1, "Publicado"), (2, "Não Publicado"))
+    PUBLICADO = 1
+    NAO_PUBLICADO = 2
+
+    STATUS = ((PUBLICADO, "Publicado"), (NAO_PUBLICADO, "Não Publicado"))
 
     titulo = models.CharField("Título", max_length=255)
     descricao = HTMLField("Descrição")
     status = models.PositiveIntegerField("Situação", choices=STATUS, default=2)
+
+    objects = models.Manager.from_queryset(managers.NoticiasQuerySet)()
 
     class Meta:
         verbose_name = "Notícia"
@@ -115,6 +120,10 @@ class Patrocinador(TimeStampedModel):
 
 
 class Organizadores(TimeStampedModel):
+    COORDENADOR_GERAL = 1
+    COMISSAO_ORGANIZADORA = 2
+    COMISSAO_AVALIADORA = 3
+
     TIPO = (
         (1, "Coordenação Geral"),
         (2, "Comissao Organizadora"),
@@ -123,6 +132,8 @@ class Organizadores(TimeStampedModel):
     nome = models.CharField("Nome", max_length=255)
     tipo = models.PositiveIntegerField("Tipo", choices=TIPO)
     ativo = models.BooleanField("Ativo?", default=True)
+
+    objects = models.Manager.from_queryset(managers.OrganizadoresQuerySet)()
 
     class Meta:
         verbose_name = "Organizador"
@@ -135,11 +146,16 @@ class Organizadores(TimeStampedModel):
 
 
 class Formatos(TimeStampedModel):
-    STATUS = ((1, "Publicado"), (2, "Não Publicado"))
+    PUBLICADO = 1
+    NAO_PUBLICADO = 2
+
+    STATUS = ((PUBLICADO, "Publicado"), (NAO_PUBLICADO, "Não Publicado"))
 
     titulo = models.CharField("Título", max_length=255)
     descricao = models.TextField("Descrição")
     status = models.PositiveIntegerField("Situação", choices=STATUS, default=2)
+
+    objects = models.Manager.from_queryset(managers.FormatosQuerySet)()
 
     class Meta:
         verbose_name = "Formato"
@@ -167,16 +183,18 @@ class FormatosArquivos(TimeStampedModel):
     nome = models.CharField("Nome", max_length=254)
     tipo = models.PositiveIntegerField("Tipo", choices=TIPO)
     arquivo = models.FileField(
-        "Arquivo", 
-        upload_to="formatos_de_submissao/arquivos/", 
-        max_length=150, 
-        blank=True
+        "Arquivo",
+        upload_to="formatos_de_submissao/arquivos/",
+        max_length=150,
+        blank=True,
     )
-    arquivo_hospedado = models.URLField("Link Arquivo", unique=True, blank=True, null=True)
+    arquivo_hospedado = models.URLField(
+        "Link Arquivo", unique=True, blank=True, null=True
+    )
     formatos = models.ForeignKey(
         Formatos,
         verbose_name="Formatos de Submissão",
-        related_name="formatos_arquivos",
+        related_name="arquivos",
         on_delete=models.CASCADE,
     )
 
@@ -186,18 +204,28 @@ class FormatosArquivos(TimeStampedModel):
         db_table = "tb_formatos_submissao_arquivos"
 
     def to_dict_json(self):
-        return {"nome": self.nome, "tipo": self.tipo, "arquivo": self.arquivo, "arquivo_hospedado": self.arquivo_hospedado}
+        return {
+            "nome": self.nome,
+            "tipo": self.tipo,
+            "arquivo": self.arquivo,
+            "arquivo_hospedado": self.arquivo_hospedado,
+        }
 
     def __str__(self):
         return f"{self.formatos.titulo} - ({self.tipo})"
 
 
 class Datas(TimeStampedModel):
-    STATUS = ((1, "Publicado"), (2, "Não Publicado"))
+    PUBLICADO = 1
+    NAO_PUBLICADO = 2
+
+    STATUS = ((PUBLICADO, "Publicado"), (NAO_PUBLICADO, "Não Publicado"))
 
     titulo = models.CharField("Título", max_length=255)
     descricao = models.TextField("Descrição")
     status = models.PositiveIntegerField("Situação", choices=STATUS, default=2)
+
+    objects = models.Manager.from_queryset(managers.DatasQuerySet)()
 
     class Meta:
         verbose_name = "Data"
@@ -210,7 +238,10 @@ class Datas(TimeStampedModel):
 
 
 class Paginas(TimeStampedModel):
-    STATUS = ((1, "Publicado"), (2, "Não Publicado"))
+    PUBLICADO = 1
+    NAO_PUBLICADO = 2
+
+    STATUS = ((PUBLICADO, "Publicado"), (NAO_PUBLICADO, "Não Publicado"))
 
     titulo = models.CharField("Título", max_length=255)
     slug = models.SlugField(
@@ -243,7 +274,9 @@ class Palestrantes(TimeStampedModel):
         blank=True,
         help_text="A imagem deve ter as seguintes dimensões 90px x 90px",
     )
-    avatar_hospedado = models.URLField("Avatar Link", unique=True, blank=True, null=True)
+    avatar_hospedado = models.URLField(
+        "Avatar Link", unique=True, blank=True, null=True
+    )
     instituicao = models.CharField("Instituição de Ensino", max_length=254, blank=True)
 
     class Meta:
@@ -316,14 +349,28 @@ class Sirc(TimeStampedModel):
 
 
 class Palestras(TimeStampedModel):
+    CC = 1
+    SIS = 2
+    JD = 3
     PUBLICO_ALVO = (
         (1, "Ciência da Computação"),
         (2, "Sistemas de Informação"),
         (3, "Jogos Digitas"),
     )
-    DIA = ((1, "Dia 1"), (2, "Dia 2"), (3, "Dia 3"))
-    TIPO = ((1, "Palestra"), (2, "Minicurso"), (3, "Oficina"))
-    STATUS = ((1, "Confirmada"), (2, "Cancelada"))
+
+    DIA1 = 1
+    DIA2 = 2
+    DIA3 = 3
+    DIA = ((DIA1, "Dia 1"), (DIA2, "Dia 2"), (DIA3, "Dia 3"))
+
+    PALESTRA = 1
+    MINICURSO = 2
+    OFICINA = 3
+    TIPO = ((PALESTRA, "Palestra"), (MINICURSO, "Minicurso"), (OFICINA, "Oficina"))
+
+    PUBLICADO = 1
+    NAO_PUBLICADO = 2
+    STATUS = ((PUBLICADO, "Publicado"), (NAO_PUBLICADO, "Não Publicado"))
 
     titulo = models.CharField("Título", max_length=254)
     slug = models.SlugField("Slug", blank=True)
@@ -331,7 +378,7 @@ class Palestras(TimeStampedModel):
     publico_alvo = models.PositiveIntegerField("Público Alvo", choices=PUBLICO_ALVO)
     tipo = models.PositiveIntegerField("Tipo", choices=TIPO)
     dia = models.PositiveIntegerField("Dia", choices=DIA)
-    status = models.PositiveIntegerField("Status", choices=STATUS)
+    status = models.PositiveIntegerField("Status", choices=STATUS, default=PUBLICADO)
     hora = models.TimeField("Hora")
     data = models.DateField("Data")
     palestrantes = models.ManyToManyField(Palestrantes, verbose_name="Palestrante(s)")
@@ -340,8 +387,10 @@ class Palestras(TimeStampedModel):
     )
     local = models.ForeignKey(Local, verbose_name="Local", on_delete=models.CASCADE)
 
+    objects = models.Manager.from_queryset(managers.PalestrasQuerySet)()
+
     class Meta:
-        ordering = ('hora',)
+        ordering = ("hora",)
         verbose_name = "Palestras"
         verbose_name_plural = "Palestras"
         db_table = "tb_palestras"
@@ -392,7 +441,9 @@ class Anais(TimeStampedModel):
         null=True,
         help_text="A imagem deve ter as seguintes dimensões 90px x 90px",
     )
-    thumbnail_hospedado = models.URLField("Link Thumb", unique=True, blank=True, null=True)
+    thumbnail_hospedado = models.URLField(
+        "Link Thumb", unique=True, blank=True, null=True
+    )
 
     class Meta:
         verbose_name = "Anais"
@@ -405,17 +456,17 @@ class Anais(TimeStampedModel):
 
 class AnaisArquivos(TimeStampedModel):
     nome = models.CharField(
-        "Nome", 
-        max_length=254, 
-        help_text="Nome do artigo que será exibido para dowload."
+        "Nome",
+        max_length=254,
+        help_text="Nome do artigo que será exibido para dowload.",
     )
     arquivo = models.FileField(
         "Arquivo", upload_to="anais/arquivos/", max_length=150, blank=True, null=True
     )
-    arquivo_hospedado = models.URLField("Link Arquivo", unique=True, blank=True, null=True)
-    anais = models.ForeignKey(
-        Anais, verbose_name="Anais", on_delete=models.CASCADE
+    arquivo_hospedado = models.URLField(
+        "Link Arquivo", unique=True, blank=True, null=True
     )
+    anais = models.ForeignKey(Anais, verbose_name="Anais", on_delete=models.CASCADE)
 
     class Meta:
         verbose_name = "Anais Arquivos"

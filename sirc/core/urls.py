@@ -12,7 +12,11 @@ app_name = "core"
 urlpatterns = [
     path("", views.IndexView.as_view(), name="index"),
     path("realizar-inscricoes/", views.InscricaoView.as_view(), name="inscricoes"),
-    path("consultar-inscricoes/", views.ConsultarInscricaoView.as_view(), name="consultar-insc"),
+    path(
+        "consultar-inscricoes/",
+        views.ConsultarInscricaoView.as_view(),
+        name="consultar-insc",
+    ),
     path("contato/", views.ContatoView.as_view(), name="contato"),
     path("programacao/", views.ProgramacaoView.as_view(), name="programacao"),
     path("organizacao/", views.OrganizadoresView.as_view(), name="organizacao"),
@@ -24,10 +28,7 @@ urlpatterns = [
     ),
     path("p/<slug:slug>/", views.PaginaDetail.as_view(), name="pagina-detail"),
     path("anais/", views.AnaisView.as_view(), name="anais"),
-    path(
-        "anais/<slug:slug>/", views.AnaisDetail.as_view(), name="anais-detail"
-    ),
-
+    path("anais/<slug:slug>/", views.AnaisDetail.as_view(), name="anais-detail"),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
